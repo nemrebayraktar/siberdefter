@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c5c99">
+  <meta name="color-scheme" content="light">
+  {% seo %}
+  {% if page.noindex %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+  {% include header.html %}
+  <div class="frame">
+    <div class="columns">
+      <main id="icerik" tabindex="-1">
+        {{ content }}
+      </main>
+      {% include yan.html %}
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

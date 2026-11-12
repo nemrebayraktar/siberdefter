@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 820" role="img">
+  <title>Çal1_ma kâ1d1n1n be_ sat1r1</title>
+  <rect width="760" height="820" fill="#f6f2ea"/>
+  <rect x="36" y="28" width="688" height="764" fill="#fffdf8" stroke="#122033"/>
+  <rect x="36" y="28" width="14" height="764" fill="#c4564a"/>
+  <text x="72" y="78" fill="#0c5c56" font-family="Georgia, 'Liberation Serif', serif" font-size="18">SD-Y-01 · çal1_ma kâ1d1</text>
+  <text x="72" y="118" fill="#122033" font-family="Georgia, 'Liberation Serif', serif" font-size="32">Be_ sat1r yeter</text>
+  <g font-family="Georgia, 'Liberation Serif', serif">
+    <g>
+      <text x="72" y="190" fill="#0c5c56" font-size="22">01</text>
+      <text x="130" y="190" fill="#122033" font-size="24">Amaç</text>
+      <text x="130" y="222" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18">Bu çal1_ma hangi soruyu cevaplayacak?</text>
+    </g>
+    <g>
+      <text x="72" y="300" fill="#0c5c56" font-size="22">02</text>
+      <text x="130" y="300" fill="#122033" font-size="24">Kapsam</text>
+      <text x="130" y="332" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18">Neye bak1ld1, neye bak1lmad1, neden?</text>
+    </g>
+    <g>
+      <text x="72" y="410" fill="#0c5c56" font-size="22">03</text>
+      <text x="130" y="410" fill="#122033" font-size="24">Yap1lan i_</text>
+      <text x="130" y="442" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18">Hangi ad1mlar at1ld1, hangi filtre kullan1ld1?</text>
+    </g>
+    <g>
+      <text x="72" y="520" fill="#0c5c56" font-size="22">04</text>
+      <text x="130" y="520" fill="#122033" font-size="24">Kan1t</text>
+      <text x="130" y="552" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18">Hangi sistem, hangi tarih, kimin ç1kt1s1?</text>
+    </g>
+    <g>
+      <text x="72" y="630" fill="#0c5c56" font-size="22">05</text>
+      <text x="130" y="630" fill="#122033" font-size="24">Sonuç</text>
+      <text x="130" y="662" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18">Kan1t1n yettii yer ve hâlâ aç1k olan nokta.</text>
+    </g>
+  </g>
+  <text x="72" y="748" fill="#4a453c" font-family="Arial, 'Liberation Sans', sans-serif" font-size="16">Yorum ile gözlemi ayn1 cümlede eritmeyin.</text>
+</svg>

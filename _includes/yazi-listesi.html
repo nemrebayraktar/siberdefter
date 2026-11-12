@@ -1,0 +1,23 @@
+{% if include.one_cikan %}
+  {% assign sd_yazilar = site.posts | where: "one_cikan", true %}
+  {% if sd_yazilar.size == 0 %}
+    {% assign sd_yazilar = site.posts %}
+  {% endif %}
+{% else %}
+  {% assign sd_yazilar = site.posts %}
+{% endif %}
+{% if sd_yazilar.size == 0 %}
+<p class="empty">Henüz yazı yok. İlk dosyayı <code>_posts</code> klasörüne ekleyin. Adım adım anlatım deponun README dosyasında.</p>
+{% else %}
+<ul class="toc">
+  {% if include.limit %}
+    {% for post in sd_yazilar limit: 3 %}
+      {% include yazi-satiri.html post=post %}
+    {% endfor %}
+  {% else %}
+    {% for post in sd_yazilar %}
+      {% include yazi-satiri.html post=post %}
+    {% endfor %}
+  {% endif %}
+</ul>
+{% endif %}

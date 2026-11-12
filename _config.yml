@@ -1,0 +1,79 @@
+# SiberDefter yapılandırması
+# Yayın: https://nemrebayraktar.github.io/siberdefter/
+# url sitenin köküdür. baseurl proje sitesinin klasörüdür.
+# İkisini birden değiştirirseniz paylaşım bağlantıları ve iç yollar kayar.
+
+title: SiberDefter
+description: >-
+  BT denetimi ve siber güvenlik için bir çalışma defteri.
+  Yazılar, kısa notlar, sorulardan çıkan özetler, CISA taslakları ve kaynaklar.
+url: "https://nemrebayraktar.github.io"
+baseurl: "/siberdefter"
+lang: tr_TR
+timezone: Europe/Istanbul
+author: Emre Bayraktar
+
+permalink: /yazilar/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  auto_ids: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+future: false
+show_excerpts: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "cisa"
+    values:
+      rozet: Taslak
+      uyari: >-
+        Taslak. Bu sayfa özgün bir çalışma notudur. ISACA sınav sorusu,
+        telifli soru bankası veya resmi müfredat metni değildir.
+        Sertifika sahibi olunduğu anlamına gelmez.
+  - scope:
+      path: "kisa-notlar"
+    values:
+      rozet: Taslak
+      uyari: >-
+        Taslak. Çalışırken tutulmuş özgün kısa notlardır.
+        Denetim raporu veya bir standardın metni değildir.
+  - scope:
+      path: "soru-notlari"
+    values:
+      rozet: Taslak
+      uyari: >-
+        Taslak. Sorulardan çıkarılmış özgün hatırlatmalardır.
+        Gerçek sınav sorusu, şık veya telifli soru bankası metni değildir.
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .gitignore
+  - .gitattributes
+  - .editorconfig
+  - script
+  - node_modules

@@ -1,0 +1,12 @@
+<li>
+  <article>
+    <p class="toc-meta">
+      {% include tarih.html tarih=include.post.date %}
+      {% if include.post.kod %}<span class="kod">{{ include.post.kod }}</span>{% endif %}
+      {% if include.post.kategori %}<span>{{ include.post.kategori }}</span>{% endif %}
+      {% include okuma.html metin=include.post.content %}
+    </p>
+    <h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h3>
+    <p class="excerpt">{{ include.post.excerpt | strip_html }}</p>
+  </article>
+</li>

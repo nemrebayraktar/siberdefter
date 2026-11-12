@@ -1,0 +1,19 @@
+{% assign sd_alanlar = site.pages | where: "bolum", page.liste | sort: "sira" %}
+{% if sd_alanlar.size == 0 %}
+<p class="empty">Bu bölümde henüz sayfa yok. Yeni bir Markdown dosyası ekleyip <code>bolum</code> alanını <code>{{ page.liste }}</code> yapın.</p>
+{% else %}
+<ul class="toc">
+  {% for sd_alan in sd_alanlar %}
+  <li>
+    <article>
+      <p class="toc-meta">
+        {% if sd_alan.kod %}<span class="kod">{{ sd_alan.kod }}</span>{% endif %}
+        {% if sd_alan.rozet %}<span class="not">({{ sd_alan.rozet | downcase }})</span>{% endif %}
+      </p>
+      <h3><a href="{{ sd_alan.url | relative_url }}">{{ sd_alan.title }}</a></h3>
+      {% if sd_alan.ozet %}<p class="excerpt">{{ sd_alan.ozet }}</p>{% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

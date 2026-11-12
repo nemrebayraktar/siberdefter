@@ -1,0 +1,5 @@
+{% assign sd_aylar = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
+{% assign sd_ay_no = include.tarih | date: "%m" | plus: 0 %}
+{% assign sd_ay_index = sd_ay_no | minus: 1 %}
+{% assign sd_gun = include.tarih | date: "%d" | plus: 0 %}
+<time datetime="{{ include.tarih | date: '%Y-%m-%d' }}">{{ sd_gun }} {{ sd_aylar[sd_ay_index] }} {{ include.tarih | date: "%Y" }}</time>

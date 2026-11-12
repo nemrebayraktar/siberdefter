@@ -1,0 +1,30 @@
+- baslik: Başlangıç
+  url: /baslangic/
+  isaret: "🧭"
+- baslik: Yazılar
+  url: /yazilar/
+  isaret: "📝"
+- baslik: Kısa notlar
+  url: /kisa-notlar/
+  isaret: "🗒️"
+- baslik: Sorulardan
+  url: /soru-notlari/
+  isaret: "💡"
+- baslik: CISA notları
+  url: /cisa/
+  isaret: "📘"
+- baslik: Sözlük
+  url: /sozluk/
+  isaret: "🔤"
+- baslik: Plan
+  url: /calisma-plani/
+  isaret: "🗓️"
+- baslik: Kaynaklar
+  url: /kaynaklar/
+  isaret: "📚"
+- baslik: Raporlar
+  url: /raporlar/
+  isaret: "📎"
+- baslik: Hakkında
+  url: /hakkinda/
+  isaret: "👤"

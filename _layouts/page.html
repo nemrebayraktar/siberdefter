@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="prose">
+  {% include kirinti.html %}
+  {% if page.uyari %}{% include uyari.html %}{% endif %}
+  <header class="page-head">
+    {% if page.kod or page.rozet %}
+    <p class="kicker">
+      {% if page.kod %}{{ page.kod }}{% endif %}
+      {% if page.kod and page.rozet %} · {% endif %}
+      {% if page.rozet %}<span class="not">({{ page.rozet | downcase }})</span>{% endif %}
+    </p>
+    {% endif %}
+    <h1>{% if page.isaret %}<span class="isaret" aria-hidden="true">{{ page.isaret }}</span> {% endif %}{{ page.title }}</h1>
+    {% if page.ozet %}<p class="deck">{{ page.ozet }}</p>{% endif %}
+  </header>
+  {{ content }}
+  {% if page.liste %}
+  {% include alan-listesi.html %}
+  {% endif %}
+  {% if page.profil %}
+  {% include profil.html %}
+  {% endif %}
+  {% if page.bolum %}
+  {% include komsu.html %}
+  {% endif %}
+</article>

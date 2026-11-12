@@ -1,0 +1,28 @@
+{% assign sd_dizi = site.pages | where: "bolum", page.bolum | sort: "sira" %}
+{% assign sd_onceki = nil %}
+{% assign sd_sonraki = nil %}
+{% for sd_not in sd_dizi %}
+  {% if sd_not.url == page.url %}
+    {% if forloop.index0 > 0 %}
+      {% assign sd_prev_index = forloop.index0 | minus: 1 %}
+      {% assign sd_onceki = sd_dizi[sd_prev_index] %}
+    {% endif %}
+    {% assign sd_sonraki = sd_dizi[forloop.index] %}
+  {% endif %}
+{% endfor %}
+{% if sd_onceki or sd_sonraki %}
+<nav class="komsu" aria-label="Komşu notlar">
+  {% if sd_onceki %}
+  <a href="{{ sd_onceki.url | relative_url }}">
+    <span>Önceki</span>
+    {{ sd_onceki.title }}
+  </a>
+  {% endif %}
+  {% if sd_sonraki %}
+  <a class="sonraki" href="{{ sd_sonraki.url | relative_url }}">
+    <span>Sonraki</span>
+    {{ sd_sonraki.title }}
+  </a>
+  {% endif %}
+</nav>
+{% endif %}

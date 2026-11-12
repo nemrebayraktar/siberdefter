@@ -1,0 +1,106 @@
+{% assign sd_profil = site.data.profil %}
+{% if sd_profil == nil %}
+<p class="empty"><code>_data/profil.yml</code> okunamadı. Dosya yerinde mi, girintiler bozuldu mu, kontrol edin.</p>
+{% else %}
+<section class="profil-blok" aria-labelledby="kimlik-baslik">
+  <h2 id="kimlik-baslik">Kimlik</h2>
+  {% assign sd_foto = sd_profil.foto | default: "" %}
+  {% if sd_foto.size > 0 %}
+  <img class="portre" src="{{ sd_foto | relative_url }}" alt="{{ sd_profil.foto_alt | default: sd_profil.ad }}">
+  {% endif %}
+  <dl class="profil">
+    <div>
+      <dt>Ad</dt>
+      <dd>{{ sd_profil.ad }}</dd>
+    </div>
+    <div>
+      <dt>Tanıtım</dt>
+      <dd>
+        {% if sd_profil.bio.ornek %}<span class="not">(örnek)</span> {% endif %}
+        {{ sd_profil.bio.metin }}
+      </dd>
+    </div>
+    <div>
+      <dt>Konum</dt>
+      <dd>
+        {% if sd_profil.konum.ornek %}<span class="not">(örnek)</span> {% endif %}
+        {{ sd_profil.konum.metin }}
+      </dd>
+    </div>
+  </dl>
+</section>
+
+<section class="profil-blok" aria-labelledby="konu-baslik">
+  <h2 id="konu-baslik">Bu defterin konuları</h2>
+  <ul>
+    {% for konu in sd_profil.defterin_konulari %}
+    <li>{{ konu }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="profil-blok" aria-labelledby="iletisim-baslik">
+  <h2 id="iletisim-baslik">İletişim</h2>
+  <ul class="baglanti-list">
+    {% for bag in sd_profil.baglantilar %}
+    <li>
+      <span class="bag-ad">{{ bag.ad }}</span>
+      {% if bag.ornek %}
+        <span>{{ bag.gorunen }}</span> <span class="not">(örnek)</span>
+      {% else %}
+        <a href="{{ bag.url }}">{{ bag.gorunen }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="fine">Parantez içindeki örnek sözü, <code>ornek: true</code> olan satırda durur. Gerçek adresi yazınca bu alanı <code>false</code> yapın; satır ancak o zaman bağlantı olur.</p>
+</section>
+
+<section class="profil-blok" id="deneyim" aria-labelledby="deneyim-baslik">
+  <h2 id="deneyim-baslik">Deneyim</h2>
+  {% if sd_profil.deneyim.size == 0 %}
+  <p class="empty">Doğrulanmış deneyim kaydı eklenmedi. Bu liste bilerek boş. Uydurma kurum veya unvan konmaz. Eklemek için <code>_data/profil.yml</code> içindeki <code>deneyim</code> örneğini açıp kendi kaydınızı yazın.</p>
+  {% else %}
+  <ul class="kayit-list">
+    {% for kayit in sd_profil.deneyim %}
+    <li>
+      <p class="kayit-baslik">{{ kayit.rol }} · {{ kayit.kurum }}</p>
+      {% if kayit.donem %}<p class="meta">{{ kayit.donem }}</p>{% endif %}
+      {% if kayit.not %}<p>{{ kayit.not }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+<section class="profil-blok" id="sertifikalar" aria-labelledby="sertifika-baslik">
+  <h2 id="sertifika-baslik">Sertifikalar</h2>
+  {% if sd_profil.sertifikalar.size == 0 %}
+  <p class="empty">Doğrulanmış sertifika eklenmedi. CISA notları tutmak, sertifika sahibi olmak değildir. Yalnızca gerçekten sahip olduğunuz kaydı ekleyin.</p>
+  {% else %}
+  <ul class="kayit-list">
+    {% for kayit in sd_profil.sertifikalar %}
+    <li>
+      <p class="kayit-baslik">{{ kayit.ad }}</p>
+      <p class="meta">{{ kayit.veren }}{% if kayit.yil %} · {{ kayit.yil }}{% endif %}</p>
+      {% if kayit.not %}<p>{{ kayit.not }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+<section class="profil-blok" id="portfoy" aria-labelledby="portfoy-baslik">
+  <h2 id="portfoy-baslik">Portföy</h2>
+  <p>Yayımlanmış işler burada durur. Şu an doğrulanmış bir müşteri işi veya dış yayın yok. Aşağıdakiler bu sitedeki yazılardır; bir kurum için yapılmış proje değildir.</p>
+  {% if site.posts.size == 0 %}
+  <p class="empty">Henüz yazı yok.</p>
+  {% else %}
+  <ul>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="not">(site yazısı)</span></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+{% endif %}

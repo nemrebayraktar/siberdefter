@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="band">
+    <p class="footer-note">BT denetimi ve siber güvenlik için bir çalışma defteri. Eğitim notudur; denetim görüşü, hukuki danışmanlık veya ISACA’nın resmi materyali değildir.</p>
+    <nav class="footer-nav" aria-label="Alt menü">
+      {% for item in site.data.menu %}
+      <a href="{{ item.url | relative_url }}">{% if item.isaret %}<span class="isaret" aria-hidden="true">{{ item.isaret }}</span> {% endif %}{{ item.baslik }}</a>
+      {% endfor %}
+      <a href="{{ '/feed.xml' | relative_url }}">Yazı akışı</a>
+    </nav>
+    <p class="footer-meta">© {{ site.time | date: "%Y" }} {{ site.author }}. Kişisel satırlar örnek olabilir; hakkında sayfasına bakın. Bu sürümde ödeme ve üyelik yoktur.</p>
+  </div>
+</footer>

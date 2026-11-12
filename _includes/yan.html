@@ -1,0 +1,12 @@
+<aside class="side" aria-label="Defter dizini">
+  <p class="side-label"><span class="isaret" aria-hidden="true">🗂️</span> İçindekiler</p>
+  <ul class="side-list">
+    {% for bolum in site.data.bolumler %}
+    <li>
+      <a href="{{ bolum.url | relative_url }}">{% if bolum.isaret %}<span class="isaret" aria-hidden="true">{{ bolum.isaret }}</span> {% endif %}{{ bolum.baslik }}</a>
+      {% if bolum.rozet %}<span class="not">({{ bolum.rozet | downcase }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="side-note">Kısa notlar çalışırken tutulur. Sorulardan notlar, soru metni değil, akılda kalan ayrımdır. İkisi de taslaktır.</p>
+</aside>

@@ -1,0 +1,7 @@
+{% assign sd_sozcuk = include.metin | number_of_words %}
+{% if sd_sozcuk < 40 %}
+<span>kısa not</span>
+{% else %}
+{% assign sd_dakika = sd_sozcuk | plus: 179 | divided_by: 180 %}
+<span>{{ sd_dakika }} dk okuma</span>
+{% endif %}

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="prose">
+  <nav class="crumbs" aria-label="Konum">
+    <ol>
+      <li><a href="{{ '/' | relative_url }}">Defter</a> <span aria-hidden="true">/</span></li>
+      <li><a href="{{ '/yazilar/' | relative_url }}">Yazılar</a> <span aria-hidden="true">/</span></li>
+      <li aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+  {% if page.uyari %}{% include uyari.html %}{% endif %}
+  <header class="page-head">
+    <p class="kicker">
+      {% if page.kod %}{{ page.kod }} · {% endif %}{{ page.kategori }}
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% include tarih.html tarih=page.date %}
+      <span aria-hidden="true">·</span>
+      <span>{{ page.author | default: site.author }}</span>
+      <span aria-hidden="true">·</span>
+      {% include okuma.html metin=content %}
+    </p>
+  </header>
+  {{ content }}
+  <p class="post-end"><a href="{{ '/yazilar/' | relative_url }}">Tüm yazılar</a></p>
+</article>

@@ -1,0 +1,50 @@
+- kod: SD-B-07
+  baslik: Başlangıç
+  url: /baslangic/
+  isaret: "🧭"
+  ozet: Siteyi okumak ve Markdown ile yazı eklemek. Kısa, sade anlatım.
+- kod: SD-B-01
+  baslik: Yazılar
+  url: /yazilar/
+  isaret: "📝"
+  ozet: Denetim pratiğine dair kısa yazılar. Yeni yazı _posts klasörüne eklenir.
+- kod: SD-B-05
+  baslik: Kısa notlar
+  url: /kisa-notlar/
+  isaret: "🗒️"
+  ozet: Çalışırken tutulmuş madde madde hatırlatmalar. Erişim, yedek, değişiklik, olay kaydı.
+  rozet: Taslak
+- kod: SD-B-06
+  baslik: Sorulardan notlar
+  url: /soru-notlari/
+  isaret: "💡"
+  ozet: Sorulardan çıkarılmış özgün kavram notları. Sınav sorusu metni yoktur.
+  rozet: Taslak
+- kod: SD-B-02
+  baslik: CISA notları
+  url: /cisa/
+  isaret: "📘"
+  ozet: Beş çalışma alanı için özgün taslak. Sertifika beyanı değildir.
+  rozet: Taslak
+- kod: SD-B-08
+  baslik: Sözlük
+  url: /sozluk/
+  isaret: "🔤"
+  ozet: On iki terimin kısa Türkçe karşılığı. Resmi standart metni değildir.
+- kod: SD-B-09
+  baslik: Çalışma planı
+  url: /calisma-plani/
+  isaret: "🗓️"
+  ozet: Dört haftalık örnek tempo. Kendi takviminize göre değiştirin.
+  rozet: Örnek taslak
+- kod: SD-B-03
+  baslik: Kaynaklar
+  url: /kaynaklar/
+  isaret: "📚"
+  ozet: Erişim, yedekleme, değişiklik ve kanıt notu için düzenlenebilir listeler.
+- kod: SD-B-04
+  baslik: Raporlar
+  url: /raporlar/
+  isaret: "📎"
+  ozet: Çalışma notu iskeleti. Örnek diye işaretlenen kayıt kurgusaldır.
+  rozet: Örnek var

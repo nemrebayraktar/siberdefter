@@ -1,0 +1,9 @@
+<nav class="crumbs" aria-label="Konum">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Defter</a> <span aria-hidden="true">/</span></li>
+    {% if page.ust_url %}
+    <li><a href="{{ page.ust_url | relative_url }}">{{ page.ust }}</a> <span aria-hidden="true">/</span></li>
+    {% endif %}
+    <li aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>

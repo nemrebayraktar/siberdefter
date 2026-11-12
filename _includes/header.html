@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="band">
+    <div class="mast-row">
+      <a class="wordmark" href="{{ '/' | relative_url }}">SiberDefter</a>
+      <p class="mast-line">Denetim ve siber güvenlik notları</p>
+    </div>
+    <nav class="nav" aria-label="Ana menü">
+      {% assign sd_yol = page.url | replace: "index.html", "" %}
+      {% if sd_yol == "" or sd_yol == nil %}{% assign sd_yol = "/" %}{% endif %}
+      {% for item in site.data.menu %}
+        {% assign sd_aktif = false %}
+        {% if sd_yol == item.url or sd_yol contains item.url %}
+          {% assign sd_aktif = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if sd_aktif %} aria-current="page"{% endif %}>{% if item.isaret %}<span class="isaret" aria-hidden="true">{{ item.isaret }}</span> {% endif %}{{ item.baslik }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

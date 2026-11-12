@@ -1,0 +1,9 @@
+- no: "01"
+  baslik: Dosya eklemek yeter
+  metin: Yeni yazı, tarihli bir Markdown dosyasıdır. Ayrı bir panel kurmaya gerek yok.
+- no: "02"
+  baslik: Taslak, taslak kalır
+  metin: CISA sayfaları özgün çalışma notudur. Resmi soru veya müfredat metni değildir.
+- no: "03"
+  baslik: Örnekler etiketli
+  metin: Hakkında sayfasındaki kişisel satırlar örnektir. Doğrulanmamış kıdem yazılmaz.

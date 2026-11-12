@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="home">
+  <header class="page-head">
+    <p class="kicker">{{ page.kicker }}</p>
+    <h1>{{ page.title }}</h1>
+    <div class="lede">
+      {{ content }}
+    </div>
+  </header>
+
+  <section class="block" aria-labelledby="one-cikan">
+    <div class="section-head">
+      <h2 id="one-cikan"><span class="isaret" aria-hidden="true">📝</span> Öne çıkan yazılar</h2>
+      <a href="{{ '/yazilar/' | relative_url }}">Tüm yazılar</a>
+    </div>
+    {% include yazi-listesi.html one_cikan=true limit=3 %}
+  </section>
+
+  <section class="block" aria-labelledby="ilkeler-baslik">
+    <h2 id="ilkeler-baslik"><span class="isaret" aria-hidden="true">📌</span> Bu ilk sürüm ne vaat eder</h2>
+    <ol class="plain">
+      {% for ilke in site.data.ilkeler %}
+      <li><strong>{{ ilke.baslik }}.</strong> {{ ilke.metin }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+</div>

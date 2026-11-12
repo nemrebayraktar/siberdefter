@@ -1,0 +1,58 @@
+# Hakkında sayfası bu dosyayı okur.
+# Örnek satırlarda ornek: true kalsın. Gerçek bilgi yazınca ornek: false yapın.
+# ornek: true olan bağlantı tıklanmaz; yanlış bir profile gidilmesin diye.
+# Doğrulayamadığınız deneyim veya sertifika eklemeyin. Listeler bilerek boştur.
+
+ad: Emre Bayraktar
+
+bio:
+  ornek: true
+  metin: >-
+    Buraya kendi tanıtım paragrafınızı yazın. Bu defteri neden tuttuğunuzu
+    ve ne üzerine çalıştığınızı anlatın. Doğrulayamadığınız yıl, unvan
+    veya sertifika eklemeyin.
+
+konum:
+  ornek: true
+  metin: "Örnek: Şehir"
+
+# Boş bırakılırsa fotoğraf alanı hiç çizilmez. Kişi fotoğrafı uydurulmaz.
+# foto: "/assets/images/portre.jpg"
+# foto_alt: "Emre Bayraktar"
+foto: ""
+foto_alt: ""
+
+defterin_konulari:
+  - BT denetimi
+  - Siber güvenlik
+  - Çalışma kâğıdı disiplini
+
+baglantilar:
+  - ad: E-posta
+    url: "mailto:ornek@ornek.dev"
+    gorunen: ornek@ornek.dev
+    ornek: true
+  - ad: GitHub
+    url: "https://github.com/KULLANICI_ADINIZ"
+    gorunen: github.com/KULLANICI_ADINIZ
+    ornek: true
+  - ad: LinkedIn
+    url: "https://www.linkedin.com/in/KULLANICI_ADINIZ"
+    gorunen: linkedin.com/in/KULLANICI_ADINIZ
+    ornek: true
+
+# Deneyim eklemek için aşağıdaki örneği kopyalayıp listeyi doldurun.
+# Uydurma kurum yazmayın.
+deneyim: []
+# deneyim:
+#   - kurum: "Kurumun adı"
+#     rol: "Rolünüz"
+#     donem: "2024–2025"
+#     not: "Ne yaptığınız, tek cümle. Yalnızca doğrulayabildiğiniz iş."
+
+sertifikalar: []
+# sertifikalar:
+#   - ad: "Sertifikanın adı"
+#     veren: "Veren kuruluş"
+#     yil: "2026"
+#     not: "Yalnızca elinizde olan veya doğrulayabildiğiniz kayıt."
