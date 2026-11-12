@@ -1,4 +1,4 @@
-# SiberDefter
+# BT Denetim Notları
 
 BT denetimi ve siber güvenlik notları. Yazılar Markdown dosyasıdır. Site [https://nemrebayraktar.github.io/siberdefter/](https://nemrebayraktar.github.io/siberdefter/) adresinde yayımlanır.
 

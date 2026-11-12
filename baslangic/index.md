@@ -2,7 +2,7 @@
 layout: page
 title: Nasıl çalışır
 permalink: /baslangic/
-description: SiberDefter'i okumak ve yeni bir yazı eklemek için sade anlatım.
+description: BT Denetim Notları'nı okumak ve yeni bir yazı eklemek için sade anlatım.
 ozet: Dosya eklemek yeter. Başlık, tarih ve metin. Gerisi siteyi kendisi kurar.
 kod: SD-G-01
 isaret: "🧭"
@@ -12,7 +12,7 @@ Bu sayfa, siteyi ilk kez açan biri içindir. Teknik ayrıntının uzun hali dep
 
 ## Site ne işe yarar
 
-SiberDefter bir not defteridir. Yazılar, kısa maddeler, sözlük ve çalışma planı burada durur. Hepsi düz metin dosyasıdır. Ayrıca bir panel, üyelik veya ödeme yoktur.
+BT Denetim Notları bir not defteridir. Yazılar, kısa maddeler, sözlük ve çalışma planı burada durur. Hepsi düz metin dosyasıdır. Ayrıca bir panel, üyelik veya ödeme yoktur.
 
 Sağdaki dizin, bölümlerin listesidir. Üstteki mavi şerit de aynı yerlere gider.
 

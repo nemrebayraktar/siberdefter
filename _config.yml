@@ -1,9 +1,9 @@
-# SiberDefter yapılandırması
+# BT Denetim Notları yapılandırması
 # Yayın: https://nemrebayraktar.github.io/siberdefter/
 # url sitenin köküdür. baseurl proje sitesinin klasörüdür.
 # İkisini birden değiştirirseniz paylaşım bağlantıları ve iç yollar kayar.
 
-title: SiberDefter
+title: BT Denetim Notları
 description: >-
   BT denetimi ve siber güvenlik için bir çalışma defteri.
   Yazılar, kısa notlar, sorulardan çıkan özetler, CISA taslakları ve kaynaklar.
