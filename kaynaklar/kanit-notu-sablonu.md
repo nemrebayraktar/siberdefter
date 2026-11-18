@@ -41,4 +41,4 @@ Aşağıdaki bloğu kopyalayıp kendi notunuza yapıştırın. Köşeli parantez
 [Kuruluşun kendi kuralı. Yoksa “ölçüt bu çalışmada görülmedi” yazın.]
 ```
 
-Şablon bir bulgu değildir. Gözlem, ölçütü karşılamıyorsa o zaman [rapor iskeletine]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) bakın. Oradaki kuruluş kurgusaldır; kendi notunuzda gerçek adı izinsiz kullanmayın.
+Şablon bir bulgu değildir. Gözlem ölçütle yan yana gelecekse [bulgu nasıl yazılır]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) sayfasındaki beşliye bakın. Gerçek kuruluş adını izinsiz yazmayın.

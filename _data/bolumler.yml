@@ -2,49 +2,49 @@
   baslik: Başlangıç
   url: /baslangic/
   isaret: "🧭"
-  ozet: Siteyi okumak ve Markdown ile yazı eklemek. Kısa, sade anlatım.
+  ozet: Defteri nasıl okuyacağınız ve yeni bir notu nasıl ekleyeceğiniz.
 - kod: SD-B-01
   baslik: Yazılar
   url: /yazilar/
   isaret: "📝"
-  ozet: Denetim pratiğine dair kısa yazılar. Yeni yazı _posts klasörüne eklenir.
+  ozet: Çalışma kâğıdı, erişim, örneklem, iz kaydı ve kontrol üzerine yazılar.
 - kod: SD-B-05
   baslik: Kısa notlar
   url: /kisa-notlar/
   isaret: "🗒️"
-  ozet: Çalışırken tutulmuş madde madde hatırlatmalar. Erişim, yedek, değişiklik, olay kaydı.
-  rozet: Taslak
+  ozet: Erişim, yedek, değişiklik, olay kaydı ve risk için masa başı maddeleri.
 - kod: SD-B-06
   baslik: Sorulardan notlar
   url: /soru-notlari/
   isaret: "💡"
-  ozet: Sorulardan çıkarılmış özgün kavram notları. Sınav sorusu metni yoktur.
-  rozet: Taslak
+  ozet: Akılda kalan ayrımlar. Soru kökü ve şık yoktur.
 - kod: SD-B-02
   baslik: CISA notları
   url: /cisa/
   isaret: "📘"
-  ozet: Beş çalışma alanı için özgün taslak. Sertifika beyanı değildir.
-  rozet: Taslak
+  ozet: Beş çalışma alanı için özgün not. Sertifika beyanı değildir.
+- kod: SD-B-10
+  baslik: CISA kartları
+  url: /kartlar/
+  isaret: "🃏"
+  ozet: Beş alana göre tekrar kartları. İlerleme bu tarayıcıda kalır.
 - kod: SD-B-08
   baslik: Sözlük
   url: /sozluk/
   isaret: "🔤"
-  ozet: On iki terimin kısa Türkçe karşılığı. Resmi standart metni değildir.
+  ozet: Notlarda geçen terimlerin kısa Türkçe karşılığı.
 - kod: SD-B-09
   baslik: Çalışma planı
   url: /calisma-plani/
   isaret: "🗓️"
-  ozet: Dört haftalık örnek tempo. Kendi takviminize göre değiştirin.
-  rozet: Örnek taslak
+  ozet: Dört haftalık okuma düzeni. Sınav hedefi 2027 başı.
 - kod: SD-B-03
   baslik: Kaynaklar
   url: /kaynaklar/
   isaret: "📚"
-  ozet: Erişim, yedekleme, değişiklik ve kanıt notu için düzenlenebilir listeler.
+  ozet: Erişim, yedekleme, değişiklik ve kanıt notu için listeler.
 - kod: SD-B-04
   baslik: Raporlar
   url: /raporlar/
   isaret: "📎"
-  ozet: Çalışma notu iskeleti. Örnek diye işaretlenen kayıt kurgusaldır.
-  rozet: Örnek var
+  ozet: Yapılmış işin özeti ve bir bulgunun yazım düzeni.

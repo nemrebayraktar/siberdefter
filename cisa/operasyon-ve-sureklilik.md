@@ -2,7 +2,7 @@
 layout: page
 title: Operasyon ve iş sürekliliği
 permalink: /cisa/operasyon-ve-sureklilik/
-description: İşin günlük yürütülmesi ve geri dönüşün denenmesi üzerine özgün taslak not.
+description: İşin günlük yürütülmesi ve geri dönüşün denenmesi. Yedek alındı demek, geri dönüldü demek değildir.
 ozet: Yedek alındı demek, geri dönüldü demek değildir. Operasyon, işin o gün yürüyüp yürümediğidir.
 kod: SD-C-04
 sira: 4
@@ -34,26 +34,18 @@ Bu sayfa bir felaket senaryosu tarifi değildir. Saldırı adımı yazılmaz.
 
 Bir atölyenin çizim dosyaları her gece yedekleniyor. Yazılım üç aydır yeşil. Kimse bir dosyayı geri açıp açamadığına bakmamış. Çizimci, “geçen yıl bir dosya aramıştık, bulamadık, yeniden çizdik” diyor. Gözlem: yedek işi başarılı görünüyor; geri açma denemesi ve sonucu yok. Etki iddiasını büyütmeden önce hangi dosyanın, hangi gün, neden bulunamadığı sorulur.
 
-Kuruluş kurgusaldır.
+Anlatımdaki kuruluş gerçek değildir.
 
 ## Özgün tekrar
 
 <details>
-<summary>Soru 1. Sınav sorusu değildir.</summary>
+<summary>Tekrar 1</summary>
 <p>Yedek yazılımı her gece başarı yazıyor. Geri açma kaydı yok. Denetçi “yedekleme çalışıyor” diyebilir mi?</p>
 <p><strong>Bu nottaki yanıt.</strong> Yalnızca yazılımın başarı yazdığını söyleyebilir. Geri açılmanın çalıştığını söyleyemez. İki cümle ayrı yazılır. Birincisi gözlemdir, ikincisi bakılmamış bir iddiadır.</p>
 </details>
 
 <details>
-<summary>Soru 2. Sınav sorusu değildir.</summary>
+<summary>Tekrar 2</summary>
 <p>Süreklilik planında bütün sistemler “öncelik 1”. Bu neden bir sıra değildir?</p>
 <p><strong>Bu nottaki yanıt.</strong> Aynı anda her şey ilk sıradaysa, duruş anında neyin önce geleceğine karar verilmemiş demektir. Not, planın tarihini değil, sıranın kullanılıp kullanılamadığını yazar.</p>
 </details>
-
-## Kendi eklemelerim
-
-- [ ] “Yedek var” ile “geri açıldı”yı ayıran kendi cümlemi yazdım.
-- [ ] Resmi özetteki güncel alan adını kontrol ettim.
-- [ ] Bilmediğim terim:
-
-<!-- Buraya kendi cümlenizi ekleyin. Başka kaynaktan soru yapıştırmayın. -->

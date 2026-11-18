@@ -1,49 +1,47 @@
 ---
 layout: page
-title: Örnek çalışma planı
+title: Çalışma planı
 permalink: /calisma-plani/
-description: Dört haftalık örnek denetim ve CISA çalışma temposu. Taslaktır.
-ozet: Haftada beş kısa oturum. Tarihler ve süreler örnektir, size göre değişir.
+description: Dört haftalık okuma düzeni. CISA sınav hedefi 2027 başı.
+ozet: Haftada beş kısa oturum. Sınav tarihi değildir; notları sırayla dolaşmak içindir.
 kod: SD-P-01
 isaret: "🗓️"
-rozet: Örnek taslak
-uyari: >-
-  Örnek taslak. Bu bir kişisel program beyanı değildir.
-  Günler ve süreler yer tutucudur. Sınav sorusu içermez.
 ---
 
-Amaç, dağınık dosya yerine her gün tek bir sayfa okumaktır. Günde kırk dakika düşünün. Uymazsa kısaltın. Bu plan bir sertifika takvimi değildir. Resmi kapsam değişebilir. Güncel çerçeve için [ISACA’nın CISA sayfasına](https://www.isaca.org/credentialing/cisa) bakın.
+CISA sınavı için hedefim 2027 başı. Bu sayfa o hedefe kadar kullandığım dört haftalık okuma düzenidir. Bir sertifika takvimi değildir. Resmi kapsam değişebilir; güncel çerçeve için [ISACA’nın CISA sayfasına](https://www.isaca.org/credentialing/cisa) bakın. Bu plan o sayfanın yerine geçmez.
+
+Her oturum tek bir sayfadır. Uymayan günü atlamak, uydurma bir süre yazmaktan iyidir.
 
 ## Hafta 1. Notun kendisi
 
-- Pazartesi. [Sözlükten]({{ '/sozluk/' | relative_url }}) kanıt, kapsam ve ölçütü okuyun. Her birine kendi cümlenizi yazın.
+- Pazartesi. [Sözlükten]({{ '/sozluk/' | relative_url }}) kanıt, kapsam ve ölçütü okuyun.
 - Salı. [Çalışma kâğıdı yazısını]({{ '/yazilar/calisma-kagidi-disiplini/' | relative_url }}) okuyun. Beş satırdan birini boş bir notta doldurun.
-- Çarşamba. [Denetim süreci taslağına]({{ '/cisa/denetim-sureci/' | relative_url }}) bakın. Tekrar sorusunu açmadan yanıtlamayı deneyin.
-- Perşembe. [Kanıt ile yorum]({{ '/soru-notlari/kanit-ve-yorum/' | relative_url }}) özetini okuyun. Karıştırdığınız yeri bir satır ekleyin.
-- Cuma. Bu hafta yazdığınız üç cümleyi silin veya kısaltın. Uzun olanı değil, izi sürüleni bırakın.
+- Çarşamba. [Denetim süreci notuna]({{ '/cisa/denetim-sureci/' | relative_url }}) bakın. Sayfadaki tekrarı açmadan yanıtlamayı deneyin.
+- Perşembe. [Kanıt ile yorum]({{ '/soru-notlari/kanit-ve-yorum/' | relative_url }}) özetini okuyun.
+- Cuma. [CISA kartlarında]({{ '/kartlar/' | relative_url }}) yalnızca 1. alanı çevirin. Bildiklerinizi işaretleyin.
 
 ## Hafta 2. Karar ve erişim
 
-- Pazartesi. [Yönetişim taslağını]({{ '/cisa/yonetisim/' | relative_url }}) okuyun. Politika ile prosedürü ayıran bir cümle yazın.
-- Salı. [Erişim kısa notunu]({{ '/kisa-notlar/erisim/' | relative_url }}) maddeler halinde geçin. Uymayan maddeyi silin.
+- Pazartesi. [Yönetişim notunu]({{ '/cisa/yonetisim/' | relative_url }}) okuyun. Politika ile prosedürü ayıran bir cümle yazın.
+- Salı. [Erişim kısa notunu]({{ '/kisa-notlar/erisim/' | relative_url }}) geçin.
 - Çarşamba. [Erişim yazısını]({{ '/yazilar/erisim-listesini-acmadan-once/' | relative_url }}) okuyun.
 - Perşembe. [Gerekçesiz erişim]({{ '/soru-notlari/gerekcesiz-erisim/' | relative_url }}) özetine bakın. “Açık” ile “kullanıldı”yı ayırın.
-- Cuma. Kurgusal bir liste düşünün. Tarih, filtre ve bakılmayan yerini yazın. Kişi adı uydurmayın.
+- Cuma. Kartlarda 2. alanı ve erişimle ilgili kartları karıştırın.
 
 ## Hafta 3. İşin yürümesi
 
-- Pazartesi. [Değişiklik kısa notunu]({{ '/kisa-notlar/degisiklik/' | relative_url }}) okuyun. Dört parçayı (talep, deneme, onay, geçiş) sayın.
+- Pazartesi. [Değişiklik kısa notunu]({{ '/kisa-notlar/degisiklik/' | relative_url }}) okuyun. Talep, deneme, onay ve geçişi sayın.
 - Salı. [Yedek kısa notunu]({{ '/kisa-notlar/yedek/' | relative_url }}) ve [geri dönüş özetini]({{ '/soru-notlari/geri-donus/' | relative_url }}) yan yana koyun.
-- Çarşamba. [Operasyon taslağına]({{ '/cisa/operasyon-ve-sureklilik/' | relative_url }}) bakın.
+- Çarşamba. [Operasyon notuna]({{ '/cisa/operasyon-ve-sureklilik/' | relative_url }}) bakın.
 - Perşembe. [Olay kaydı kısa notunu]({{ '/kisa-notlar/olay-kaydi/' | relative_url }}) beş durakta geçin.
-- Cuma. Bir cümlede yalnızca gördüğünüzü yazın. Saldırı adımı eklemeyin.
+- Cuma. Kartlarda 4. alanı çevirin. Saldırı adımı eklemeyin.
 
 ## Hafta 4. Toparlamak
 
-- Pazartesi. [Varlıkların korunması]({{ '/cisa/varliklarin-korunmasi/' | relative_url }}) taslağını okuyun. Sahibi olmayan bir örnek düşünün, kuruluş adı uydurmayın.
-- Salı. [Edinim taslağına]({{ '/cisa/edinim-ve-gelistirme/' | relative_url }}) bakın. “Canlıda” ile “kabul edildi”yi ayırın.
+- Pazartesi. [Varlıkların korunması]({{ '/cisa/varliklarin-korunmasi/' | relative_url }}) notunu okuyun.
+- Salı. [Edinim notuna]({{ '/cisa/edinim-ve-gelistirme/' | relative_url }}) bakın. “Canlıda” ile “kabul edildi”yi ayırın.
 - Çarşamba. [Risk kısa notunu]({{ '/kisa-notlar/risk/' | relative_url }}) okuyun. Bir risk cümlesini ihtimal ve etki diye ikiye bölün.
-- Perşembe. [Örnek çalışma notunun]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) kurgusal olduğunu unutmadan iskelete bakın.
-- Cuma. Dört haftada açmadığınız sayfayı seçin. Nedenini bir satır yazın. O satır da bir nottur.
+- Perşembe. [Bulgu nasıl yazılır]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) sayfasındaki düzene bakın.
+- Cuma. Kartlarda “Tekrar” diye işaretlediklerinizi baştan çevirin. Dört haftada açmadığınız sayfanın adını bir satır yazın.
 
-Planı bitirmek bir sınav tarihi koymaz. Bitince aynı dört haftayı kendi boşluklarınıza göre baştan kurun.
+Dört hafta bitince aynı düzen, açık kalan kartlara göre baştan kurulur. Bu, sınav günü ilan etmek değildir.

@@ -2,7 +2,7 @@
 layout: page
 title: Edinim, geliştirme ve devreye alma
 permalink: /cisa/edinim-ve-gelistirme/
-description: Satın alınan veya yazılan bir sistemin “bitti” sayılması üzerine özgün taslak not.
+description: Satın alınan veya yazılan bir sistemin kabul kaydı olmadan bitti sayılmaması.
 ozet: Yazılım satın alınsa da “bitti” diyen bir kabul kaydı aranır. Ortamların karışması ayrı bir sorudur.
 kod: SD-C-03
 sira: 3
@@ -34,26 +34,18 @@ Bu notta kod kırma, zafiyet sömürme veya güvenlik duvarını aşma yoktur. A
 
 Bir belediye spor salonu, üyelik yazılımına “doluluk” modülü alıyor. Modül pazartesi canlıda. Kabul notu yok. Görevli, “eğitmen pazartesi denedi, açıldı” diyor. Gözlem: canlıya geçilmiş, ihtiyaç maddelerinin karşılandığına dair imzalı veya kayıtlı bir kabul yok. Bu, modülün kötü olduğu anlamına gelmez. Kararın iz bırakmadığı anlamına gelir.
 
-Kuruluş kurgusaldır.
+Anlatımdaki kuruluş gerçek değildir.
 
 ## Özgün tekrar
 
 <details>
-<summary>Soru 1. Sınav sorusu değildir.</summary>
+<summary>Tekrar 1</summary>
 <p>Paket yazılım canlıda, kabul tutanağı yok, kullanıcılar çalışıyor. Denetçi “yazılım güvensiz” mi yazmalı, “kabul kaydı yok” mu?</p>
 <p><strong>Bu nottaki yanıt.</strong> İkincisi, çünkü görülen odur. Güvensiz demek için bakılmayan bir denemeyi varmış gibi yazmak olmaz. Eksik olan, ihtiyacın karşılandığına dair kayıttır.</p>
 </details>
 
 <details>
-<summary>Soru 2. Sınav sorusu değildir.</summary>
+<summary>Tekrar 2</summary>
 <p>Deneme ve canlı aynı veri tabanını kullanıyor. Küçük ekip “ayrı sunucumuz yok” diyor. Notta ne yazılır?</p>
 <p><strong>Bu nottaki yanıt.</strong> Ayrı sunucu olmadığı ve deneme ile canlının aynı veriyi kullandığı. Bunun bilinçli bir tercih mi olduğu, deneme işinin canlı kaydı bozup bozmadığı sorulur. “Ayrı sunucu şarttır” diye evrensel bir cümle kurulmaz.</p>
 </details>
-
-## Kendi eklemelerim
-
-- [ ] Satın alma ile kabulün aynı şey olmadığını kendi örneğimle yazdım.
-- [ ] Resmi özetteki güncel alan adını kontrol ettim.
-- [ ] Bilmediğim terim:
-
-<!-- Buraya kendi cümlenizi ekleyin. Başka kaynaktan soru yapıştırmayın. -->

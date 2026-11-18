@@ -9,8 +9,6 @@ liste: kaynaklar
 isaret: "📚"
 ---
 
-Bu listedekiler BT Denetim Notları için yazılmış pratik hatırlatmalardır. ISO 27001, COBIT veya NIST CSF gibi çerçevelerin maddeleri kopyalanmadı. Kuruluş hangi ölçütü benimsediyse çalışma kâğıdına onu yazın; uymayan maddeyi silin ya da “kapsam dışı, çünkü …” diye not edin.
-
-Yeni bir kaynak eklemek için `kaynaklar/` altına bir Markdown dosyası koyun. Dosyada `bolum: kaynaklar` ve bir `sira` olsun. Sayfa, dizinde kendiliğinden görünür.
+Bu listedekiler BT Denetim Notları için yazılmış pratik hatırlatmalardır. ISO 27001, COBIT veya NIST CSF gibi çerçevelerin maddeleri kopyalanmadı. Kuruluş hangi ölçütü benimsediyse çalışma kâğıdına onu yazın; uymayan maddeyi silin ya da “bu çalışmada yok, çünkü …” diye not edin.
 
 ## Listeler

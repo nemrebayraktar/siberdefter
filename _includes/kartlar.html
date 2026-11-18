@@ -1,0 +1,42 @@
+<div class="kart-uygulama" id="kart-uygulama">
+  <div class="kart-filtre" role="group" aria-label="Çalışma alanı">
+    <button type="button" class="aktif" data-alan="0" aria-pressed="true">Tümü</button>
+    <button type="button" data-alan="1" aria-pressed="false">1 Süreç</button>
+    <button type="button" data-alan="2" aria-pressed="false">2 Yönetişim</button>
+    <button type="button" data-alan="3" aria-pressed="false">3 Edinim</button>
+    <button type="button" data-alan="4" aria-pressed="false">4 Operasyon</button>
+    <button type="button" data-alan="5" aria-pressed="false">5 Koruma</button>
+  </div>
+
+  <p class="kart-durum" id="kart-durum" role="status" aria-live="polite"></p>
+  <div class="kart-olcu" id="kart-olcu" role="progressbar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" aria-label="Bu süzgeçte bildiğim kartlar">
+    <span id="kart-olcu-dolu"></span>
+  </div>
+
+  <div class="kart-sahne">
+    <button type="button" class="kart" id="kart-dugme" aria-pressed="false">
+      <span class="kart-yuz kart-on">
+        <span class="kart-etiket" id="kart-on-etiket">Soru</span>
+        <span class="kart-metin" id="kart-on-metin"></span>
+      </span>
+      <span class="kart-yuz kart-arka" aria-hidden="true">
+        <span class="kart-etiket">Yanıt</span>
+        <span class="kart-metin" id="kart-arka-metin"></span>
+      </span>
+    </button>
+  </div>
+
+  <p class="kart-ipucu" id="kart-ipucu">Kartın üstüne tıklayın veya Space tuşuna basın. Oklar önceki ve sonraki karttır.</p>
+
+  <div class="kart-nav">
+    <button type="button" id="kart-once">Önceki</button>
+    <button type="button" id="kart-sonra">Sonraki</button>
+    <button type="button" id="kart-biliyorum" aria-pressed="false">Biliyorum</button>
+    <button type="button" id="kart-tekrar" aria-pressed="false">Tekrar</button>
+    <button type="button" id="kart-karistir">Karıştır</button>
+    <button type="button" id="kart-sifirla">İlerlemeyi sıfırla</button>
+  </div>
+</div>
+
+<script id="kart-veri" type="application/json">{{ site.data.kartlar | jsonify }}</script>
+<script src="{{ '/assets/js/kartlar.js' | relative_url }}"></script>

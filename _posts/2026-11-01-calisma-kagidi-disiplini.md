@@ -47,6 +47,6 @@ Başkasının cümlesini yapıştırmak. Politika maddesini olduğu gibi almak y
 
 ## Ne zaman uzatılır
 
-Beş satır, ilk nottur. Bulguya dönecekse ölçüt, neden, etki ve öneri ayrıca yazılır. Bunun kurgusal bir hali [örnek çalışma notunda]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) durur. Oradaki şirket gerçek değildir.
+Beş satır, ilk nottur. Bulguya dönecekse ölçüt, neden, etki ve öneri ayrıca yazılır. O düzen [bulgu nasıl yazılır]({{ '/raporlar/ornek-erisim-calisma-notu/' | relative_url }}) sayfasındadır. Orada sayı ve kuruluş adı yoktur.
 
 Müşteri ekranı koyacaksanız önce kişi adını, müşteri adını ve sistem adresini silin. Bu sitedeki görsel uydurma bir şemadır; gerçek bir sistemden alınmamıştır.

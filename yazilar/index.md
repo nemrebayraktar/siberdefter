@@ -8,6 +8,6 @@ kod: SD-B-01
 isaret: "📝"
 ---
 
-Buradaki yazılar özgün çalışma notlarıdır. Bir müşteri raporu değildir. Yeni yazının nasıl ekleneceği deponun README dosyasında, adım adım anlatılır.
+Buradaki yazılar özgün çalışma notlarıdır. Bir müşteri raporu değildir. Deftere yeni notun nasıl girdiği [başlangıç sayfasında]({{ '/baslangic/' | relative_url }}) kısaca durur.
 
 {% include yazi-listesi.html %}

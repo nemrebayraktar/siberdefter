@@ -1,9 +1,9 @@
 - no: "01"
-  baslik: Dosya eklemek yeter
-  metin: Yeni yazı, tarihli bir Markdown dosyasıdır. Ayrı bir panel kurmaya gerek yok.
+  baslik: İz sürülebilir not
+  metin: Amaç, kapsam, yapılan iş, kanıt ve sonuç ayrı durur. “Baktım” bir kayıt değildir.
 - no: "02"
-  baslik: Taslak, taslak kalır
-  metin: CISA sayfaları özgün çalışma notudur. Resmi soru veya müfredat metni değildir.
+  baslik: Resmi materyal değildir
+  metin: CISA notları ve kartlar özgün çalışmadır. Sınav sorusu, telifli soru bankası veya sertifika beyanı değildir.
 - no: "03"
-  baslik: Örnekler etiketli
-  metin: Hakkında sayfasındaki kişisel satırlar örnektir. Doğrulanmamış kıdem yazılmaz.
+  baslik: Yazılmayan unvan yazılmaz
+  metin: Hakkında sayfasında olmayan deneyim ve sertifika eklenmez. CISA hedefi 2027 başıdır; sertifika henüz yoktur.

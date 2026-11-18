@@ -1,58 +1,55 @@
 ---
 layout: page
-title: Örnek çalışma notu — depo hesapları
+title: Bulgu nasıl yazılır
 permalink: /raporlar/ornek-erisim-calisma-notu/
-description: Kurgusal bir erişim bulgusunun nasıl yazılacağını gösteren örnek taslak.
-ozet: Bulgu yazımının iskeleti. Kuruluş, kişiler ve sayılar uydurmadır.
+description: Durum, ölçüt, neden, etki ve öneriyi ayıran yazım düzeni.
+ozet: Bir erişim sorusunda bulgu cümlesinin iskeleti. Sayı ve kuruluş uydurulmaz.
 kod: SD-R-01
 sira: 1
 bolum: raporlar
-rozet: Örnek taslak
 ust: Raporlar
 ust_url: /raporlar/
-uyari: >-
-  Örnek taslak. Kuruluş, kişiler ve bulgu kurgusaldır.
-  Bu bir yayımlanmış denetim raporu değildir.
 ---
 
-## Başlık bilgisi
+Mentorluk raporlarında aynı beşliyi kullandım: durum, ölçüt, neden, etki, öneri. Bu bir firmanın telifli formu değildir. Gözlemi ölçütten ayırmak için yeter. Aşağıdaki erişim sorusu bir kalıptır; belirli bir müşterinin bulgusu değildir.
 
-| Alan | Bu örnekte |
+## Başlıkta ne durur
+
+| Alan | Ne yazılır |
 | --- | --- |
-| Kuruluş | Mavi İstif Depolama (kurgusal) |
-| Soru | Depo yazılımında işten ayrılanların hesapları kapanıyor mu? |
-| Dönem | 2026 ilk çeyrek, kurgusal |
-| Bakan | Bu örnekte ad yok |
-| Sonuç cümlesi | Ayrılan on iki kişinin hesabı dönem sonunda hâlâ açık görünüyor. |
+| Soru | Tek cümle. Örneğin ayrılanların hesabı kapanıyor mu. |
+| Dönem | Listenin günü ve insan kaynakları listesinin aralığı. |
+| Bakan | Notu tutan. Yoksa boş bırakılır, uydurulmaz. |
+| Sonuç | Kanıtın yettiği yer, tek cümle. |
+
+Kuruluşun adı, kişi adı ve sistem adresi ancak izin varsa yazılır. İzin yoksa notta maskelenir. Bu sayfada bilinçli olarak yoklar.
 
 ## Yöntem, tek paragraf
 
-İnsan kaynaklarının kurgusal ayrılış listesi ile depo yazılımının 31 Mart 2026 tarihli kullanıcı çıktısı yan yana kondu. Liste “aktif” filtresiyle alındı sayıldı. Ortak hesaplar bu örneğin dışında bırakıldı. Üç kayıtta hesap kapanış tarihi, ayrılış gününden sonra da boştu; örnek bunu on iki kişiye genelledi. Gerçek bir işte genelleme ancak sayım tablosuyla yapılır. Burada tablo bilerek yoktur, çünkü veri uydurulmuştur.
+İnsan kaynaklarındaki ayrılış listesi ile uygulamanın kullanıcı çıktısı aynı döneme konur. Filtre “aktif” ise pasif hesaplar kapsam dışıdır; bu yazılır. Ortak hesaplar ayrı tutulur. Eşleşmeyen ad “temiz” diye kapatılmaz. Üç satır bütün liste gibi anlatılmaz. Sayım yoksa cümle “bu kayıtlarda” diye başlar.
 
 ## Bulgu
 
-Yaygın bir yazım düzeni kullanılır: durum, ölçüt, neden, etki, öneri. Bu düzen bir firmanın telifli formu değildir; gözlemi ölçütten ayırmak için yeter.
-
 ### Durum
 
-Kurgusal çıktıda, ilk çeyrekte ayrıldığı söylenen on iki kişinin depo hesabı 31 Mart’ta aktif görünmektedir.
+Dönem içinde ayrıldığı söylenen kişilerin hesabı, çıktının alındığı günde hâlâ açık görünüyorsa, görülen budur. Kaç kişi olduğu ancak sayım tablosundaysa yazılır. Tablo yoksa sayı uydurulmaz.
 
 ### Ölçüt
 
-Kuruluşun kurgusal erişim kuralı, son çalışma gününde hesabın kapatılmasını istemektedir. Kural bu örnek için uydurulmuştur.
+Kuruluşun kendi kuralı ne diyorsa odur. “Son çalışma günü” diyorsa ölçüt o gündür. Kural görülmediyse “ölçüt bu çalışmada görülmedi” yazılır. Başka bir kurumun kuralı buraya taşınmaz.
 
 ### Neden
 
-Bu örnekte neden kapanmadığı araştırılmamıştır. Gerçek bir notta neden görülmediyse “görülmedi” yazılır; sebep uydurulmaz.
+Neden araştırılmadıysa “görülmedi” yazılır. Sebep tahmin edilmez. Kapanışı kimin yapacağı belli değilse, belli olmadığı yazılır; bir ihmal hikâyesi kurulmaz.
 
 ### Etki
 
-Ayrılan kişi hesabı açıksa, o kişinin yetkisi dönem sonunda hâlâ kullanılabilir durumdadır. Bu örnekte kötüye kullanım görüldüğü iddia edilmez.
+Açık hesap, yetkinin hâlâ kullanılabilir durumda olduğunu söyler. “Kullanıldı” demek için kullanım izi gerekir. İz yoksa etki cümlesi kullanılabilirlikte kalır.
 
 ### Öneri
 
-Hesapların kimin tarafından, hangi süreyle kapatılacağı yazılsın ve bir sonraki çeyrekte aynı eşleştirme tekrar edilsin. Ürün adı önerilmez.
+Kimin, hangi süreyle kapatacağı ve aynı eşleştirmenin sonraki dönemde tekrar edilip edilmeyeceği yazılır. Ürün adı önerilmez.
 
-## Bu örneği nasıl çoğaltırsınız
+## Ne zaman bu düzen yetmez
 
-Dosyayı kopyalayın, `permalink` değerini değiştirin, `uyari` metnini gerçek duruma göre güncelleyin. Metin örnek olmaktan çıkmadan uyarı bandını kaldırmayın. Müşteri adı, kişi adı ve sistem adresi için izin yoksa yazmayın.
+Beşli, bulguya dönecek not içindir. İlk bakışta [beş satırlık çalışma kâğıdı]({{ '/yazilar/calisma-kagidi-disiplini/' | relative_url }}) daha kısa ve daha doğrudur. Ölçüt yoksa bulgu değil, açık nokta yazılır.

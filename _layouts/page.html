@@ -16,6 +16,9 @@ layout: default
     {% if page.ozet %}<p class="deck">{{ page.ozet }}</p>{% endif %}
   </header>
   {{ content }}
+  {% if page.kartlar %}
+  {% include kartlar.html %}
+  {% endif %}
   {% if page.liste %}
   {% include alan-listesi.html %}
   {% endif %}

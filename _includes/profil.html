@@ -53,13 +53,13 @@
     </li>
     {% endfor %}
   </ul>
-  <p class="fine">Parantez içindeki örnek sözü, <code>ornek: true</code> olan satırda durur. Gerçek adresi yazınca bu alanı <code>false</code> yapın; satır ancak o zaman bağlantı olur.</p>
+  <p class="fine">E-posta ve telefon bu sayfada yayımlanmaz.</p>
 </section>
 
 <section class="profil-blok" id="deneyim" aria-labelledby="deneyim-baslik">
   <h2 id="deneyim-baslik">Deneyim</h2>
   {% if sd_profil.deneyim.size == 0 %}
-  <p class="empty">Doğrulanmış deneyim kaydı eklenmedi. Bu liste bilerek boş. Uydurma kurum veya unvan konmaz. Eklemek için <code>_data/profil.yml</code> içindeki <code>deneyim</code> örneğini açıp kendi kaydınızı yazın.</p>
+  <p class="empty">Doğrulanmış deneyim kaydı yok. Olmayan kurum veya unvan yazılmaz.</p>
   {% else %}
   <ul class="kayit-list">
     {% for kayit in sd_profil.deneyim %}
@@ -76,7 +76,7 @@
 <section class="profil-blok" id="sertifikalar" aria-labelledby="sertifika-baslik">
   <h2 id="sertifika-baslik">Sertifikalar</h2>
   {% if sd_profil.sertifikalar.size == 0 %}
-  <p class="empty">Doğrulanmış sertifika eklenmedi. CISA notları tutmak, sertifika sahibi olmak değildir. Yalnızca gerçekten sahip olduğunuz kaydı ekleyin.</p>
+  <p class="empty">CISA sertifikası yok. Sınav hedefi 2027 başı. Not tutmak, sertifika sahibi olmak değildir.</p>
   {% else %}
   <ul class="kayit-list">
     {% for kayit in sd_profil.sertifikalar %}
@@ -92,7 +92,7 @@
 
 <section class="profil-blok" id="portfoy" aria-labelledby="portfoy-baslik">
   <h2 id="portfoy-baslik">Portföy</h2>
-  <p>Yayımlanmış işler burada durur. Şu an doğrulanmış bir müşteri işi veya dış yayın yok. Aşağıdakiler bu sitedeki yazılardır; bir kurum için yapılmış proje değildir.</p>
+  <p>Mentorluk programındaki beş denetim raporu ve örnek banka AWS çalışması anonimleştirildiği için dosya olarak burada durmuyor. Aşağıdakiler bu sitede yayımlanan notlardır.</p>
   {% if site.posts.size == 0 %}
   <p class="empty">Henüz yazı yok.</p>
   {% else %}

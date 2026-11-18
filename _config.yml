@@ -5,8 +5,8 @@
 
 title: BT Denetim Notları
 description: >-
-  BT denetimi ve siber güvenlik için bir çalışma defteri.
-  Yazılar, kısa notlar, sorulardan çıkan özetler, CISA taslakları ve kaynaklar.
+  Emre Bayraktar’ın BT denetimi çalışma defteri.
+  Yazılar, kısa notlar, CISA notları, tekrar kartları ve kaynaklar.
 url: "https://nemrebayraktar.github.io"
 baseurl: "/siberdefter"
 lang: tr_TR
@@ -46,24 +46,21 @@ defaults:
   - scope:
       path: "cisa"
     values:
-      rozet: Taslak
       uyari: >-
-        Taslak. Bu sayfa özgün bir çalışma notudur. ISACA sınav sorusu,
-        telifli soru bankası veya resmi müfredat metni değildir.
-        Sertifika sahibi olunduğu anlamına gelmez.
+        Özgün çalışma notudur. ISACA sınav sorusu, telifli soru bankası
+        veya resmi müfredat metni değildir. Sertifika sahibi olunduğu
+        anlamına gelmez.
   - scope:
       path: "kisa-notlar"
     values:
-      rozet: Taslak
       uyari: >-
-        Taslak. Çalışırken tutulmuş özgün kısa notlardır.
+        Çalışırken tutulmuş özgün kısa notlardır.
         Denetim raporu veya bir standardın metni değildir.
   - scope:
       path: "soru-notlari"
     values:
-      rozet: Taslak
       uyari: >-
-        Taslak. Sorulardan çıkarılmış özgün hatırlatmalardır.
+        Sorulardan çıkarılmış özgün hatırlatmalardır.
         Gerçek sınav sorusu, şık veya telifli soru bankası metni değildir.
 
 exclude:

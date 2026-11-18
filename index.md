@@ -2,12 +2,12 @@
 layout: home
 title: BT denetimi ve siber güvenlik notları için sade bir defter
 description: >-
-  BT Denetim Notları, yazı, CISA çalışma notu, pratik liste ve rapor iskeletini
-  aynı yerde tutar. Markdown ile düzenlenir, GitHub Pages ile yayımlanabilir.
-kicker: BT Denetim Notları · İlk sürüm
+  Emre Bayraktar’ın BT denetimi çalışma defteri. Yazılar, CISA notları,
+  kısa listeler ve tekrar kartları.
+kicker: Emre Bayraktar · Antalya
 permalink: /
 ---
 
-BT Denetim Notları, BT denetimi ve siber güvenlik notlarını dağınık dosyalarda bırakmamak için kurulmuş bir çalışma sitesidir. Yazılar, kısa notlar ve sorulardan çıkan özetler Markdown ile eklenir. Site, GitHub Pages üzerinde ayrı bir sunucu kiralamadan durabilir.
+BT Denetim Notları, denetim işini dağınık dosyalarda bırakmamak için tuttuğum çalışma defteridir. Yazılar çalışma kâğıdının düzenini, kısa notlar masa başında bakılacak maddeleri, CISA bölümü ise beş çalışma alanını kendi cümlelerimle anlatır.
 
-İlk sürüm; site kurmayı, yazı eklemeyi ve yayımlamayı öğrenmek içindir. Yazı eklemenin kısa anlatımı [başlangıç sayfasında]({{ '/baslangic/' | relative_url }}) durur. CISA sayfaları, kısa notlar ve sorulardan notlar açıkça taslaktır. Sorulardan notlar sınav sorusu değildir. Hakkında sayfasındaki kişisel satırlar örnek diye işaretlidir. [Çalışma planı]({{ '/calisma-plani/' | relative_url }}) örnektir.
+Notlar resmi müfredat metni değildir ve sertifika beyanı değildir. CISA sınavına hazırlanıyorum; hedefim 2027 başı. Tekrar için [CISA kartlarına]({{ '/kartlar/' | relative_url }}), kim olduğuma [hakkında]({{ '/hakkinda/' | relative_url }}) sayfasından bakın. Okumaya [başlangıçtan]({{ '/baslangic/' | relative_url }}) veya aşağıdaki yazılardan girilebilir.

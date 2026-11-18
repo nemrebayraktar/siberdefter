@@ -15,4 +15,4 @@ Küçük ekipte ayrı bir kurul olmayabilir. O zaman “kurul yok” bir kusur i
 
 Kontrolün zayıf hali şudur: dosya var, son iş yok, yokluğu da yazılmamış. Güçlü hali şudur: dosya şu tarihte güncellenmiş, son iş şu tarihte yapılmış, çıktıda üç satır eksik ve bu eksik not edilmiştir.
 
-Sözlükteki [kontrol]({{ '/sozluk/' | relative_url }}) maddesi bu ayrımın kısa halidir. [Yönetişim taslağı]({{ '/cisa/yonetisim/' | relative_url }}) aynı konuyu biraz daha açar. İkisi de sınav sorusu değildir.
+Sözlükteki [kontrol]({{ '/sozluk/' | relative_url }}) maddesi bu ayrımın kısa halidir. [Yönetişim notu]({{ '/cisa/yonetisim/' | relative_url }}) aynı konuyu biraz daha açar. İkisi de sınav sorusu değildir.

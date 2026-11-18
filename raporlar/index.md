@@ -2,15 +2,21 @@
 layout: page
 title: Raporlar ve yayınlar
 permalink: /raporlar/
-description: Çalışma notu ve kısa raporlar için alan. Örnek kayıt kurgusaldır.
-ozet: İleride gerçek çalışma notları burada durur. Şu anki tek kayıt örnek taslaktır.
+description: Mentorluk raporlarının özeti ve bir bulgunun yazım düzeni.
+ozet: Beş anonim rapor ve AWS çalışması burada dosya olarak durmaz. Duran, bulgunun nasıl yazılacağıdır.
 kod: SD-B-04
 liste: raporlar
 isaret: "📎"
 ---
 
-Bu bölüm, kısa çalışma notları ve yazılmış parçalar içindir. Akademik yayın, müşteri raporu veya konferans metni yoktur. Aşağıda gördüğünüz tek parça, bulgu yazmanın şeklini göstermek için uydurulmuş bir örnektir. Kuruluş, kişi ve olay gerçek değildir.
+Bu bölüm iki iş görür. İlki, yayımlanmayan çalışmanın dürüst özetidir. İkincisi, bir bulguyu ölçütten ayırarak yazma düzenidir.
 
-Gerçek bir not eklerken müşteri adını, kişi adını ve sistem adresini izinsiz koymayın. Örnek dosyadaki uyarı bandını, metin gerçekten örnek olmaktan çıkınca kendi cümlenizle değiştirin; bandı sessizce silip kurgusal metni bırakmayın.
+## Yapılmış iş
 
-## Kayıtlar
+CISA mentorluk programında ITGC çalışmaları yürüttüm ve beş denetim raporunu anonimleştirerek hazırladım. Aynı çizgide, örnek bir bankanın AWS ortamı için bir denetim çalışması yaptım. Bu, bir bankanın yayımlanmış müşteri raporu değildir.
+
+Sağlık Bakanlığı’nın Burdur’daki stajında parola politikasını inceledim. O incelemenin kurum içi metni de burada yok.
+
+Raporları olduğu gibi koymuyorum. Kurum, kişi ve sistem ayrıntısı taşısınlar diye anonimleştirildiler; yine de bu siteye dosya olarak çıkmıyorlar. Aşağıdaki sayfa, o raporlarda kullandığım yazım düzeninin kendisidir. Sayı, kişi ve kuruluş adı uydurulmaz.
+
+## Yazım düzeni

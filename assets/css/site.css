@@ -708,3 +708,125 @@ a {
     display: none;
   }
 }
+
+.kart-uygulama {
+  margin-top: 0.5rem;
+}
+
+.kart-filtre,
+.kart-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.kart-uygulama button {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  background: var(--paper);
+  color: var(--navy);
+  border: 1px solid var(--navy);
+  border-radius: 0;
+  min-height: 44px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.kart-filtre button.aktif,
+.kart-nav button[aria-pressed="true"] {
+  background: var(--navy);
+  color: #f6f0e6;
+}
+
+.kart-durum,
+.kart-ipucu {
+  font-family: var(--sans);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.kart-durum {
+  margin: 0.85rem 0 0.4rem;
+}
+
+.kart-olcu {
+  height: 0.45rem;
+  background: #e7dccb;
+  border: 1px solid var(--navy);
+  margin: 0 0 1rem;
+}
+
+.kart-olcu span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--navy);
+}
+
+.kart-sahne {
+  margin: 0 0 0.75rem;
+}
+
+.kart-uygulama button.kart {
+  display: grid;
+  width: 100%;
+  min-height: 15rem;
+  text-align: left;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.kart-yuz {
+  grid-area: 1 / 1;
+  padding: 1.15rem 1.2rem 1.4rem;
+}
+
+.kart:not(.cevirildi) .kart-arka,
+.kart.cevirildi .kart-on {
+  visibility: hidden;
+}
+
+.kart-uygulama button.kart.cevirildi {
+  background: var(--navy);
+  color: #f6f0e6;
+}
+
+.kart-etiket {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.7rem;
+}
+
+.kart-metin {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  line-height: 1.45;
+  overflow-wrap: break-word;
+}
+
+.kart-ipucu {
+  margin: 0 0 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .kart-metin {
+    font-size: 1.12rem;
+  }
+
+  .kart-uygulama button.kart {
+    min-height: 16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kart,
+  .kart-olcu span {
+    transition: none;
+  }
+}

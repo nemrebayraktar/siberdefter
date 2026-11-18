@@ -1,58 +1,57 @@
-# Hakkında sayfası bu dosyayı okur.
-# Örnek satırlarda ornek: true kalsın. Gerçek bilgi yazınca ornek: false yapın.
-# ornek: true olan bağlantı tıklanmaz; yanlış bir profile gidilmesin diye.
-# Doğrulayamadığınız deneyim veya sertifika eklemeyin. Listeler bilerek boştur.
+# Yalnızca doğrulanmış satırlar. E-posta ve telefon bilerek yok.
+# Olmayan unvan veya sertifika eklenmez.
 
 ad: Emre Bayraktar
 
 bio:
-  ornek: true
+  ornek: false
   metin: >-
-    Buraya kendi tanıtım paragrafınızı yazın. Bu defteri neden tuttuğunuzu
-    ve ne üzerine çalıştığınızı anlatın. Doğrulayamadığınız yıl, unvan
-    veya sertifika eklemeyin.
+    European University of Lefke’de yazılım mühendisliği okudum;
+    eğitim dili İngilizceydi, yıllar 2022–2026. Antalya’da yaşıyorum.
+    BT denetimi, risk ve bilgi güvenliği alanında çalışmak istiyorum.
+    CISA sınavına hazırlanıyorum; hedefim 2027 başı. Bu defter,
+    o hazırlığın ve stajlarda gördüğüm işin çalışma kaydıdır.
 
 konum:
-  ornek: true
-  metin: "Örnek: Şehir"
+  ornek: false
+  metin: Antalya
 
-# Boş bırakılırsa fotoğraf alanı hiç çizilmez. Kişi fotoğrafı uydurulmaz.
-# foto: "/assets/images/portre.jpg"
-# foto_alt: "Emre Bayraktar"
 foto: ""
 foto_alt: ""
 
 defterin_konulari:
-  - BT denetimi
-  - Siber güvenlik
-  - Çalışma kâğıdı disiplini
+  - BT denetimi ve ITGC
+  - Risk ve bilgi güvenliği
+  - CISA çalışma notları
 
 baglantilar:
-  - ad: E-posta
-    url: "mailto:ornek@ornek.dev"
-    gorunen: ornek@ornek.dev
-    ornek: true
   - ad: GitHub
-    url: "https://github.com/KULLANICI_ADINIZ"
-    gorunen: github.com/KULLANICI_ADINIZ
-    ornek: true
+    url: "https://github.com/nemrebayraktar"
+    gorunen: github.com/nemrebayraktar
+    ornek: false
   - ad: LinkedIn
-    url: "https://www.linkedin.com/in/KULLANICI_ADINIZ"
-    gorunen: linkedin.com/in/KULLANICI_ADINIZ
-    ornek: true
+    url: "https://www.linkedin.com/in/necdet-emre-bayraktar-277027319"
+    gorunen: linkedin.com/in/necdet-emre-bayraktar-277027319
+    ornek: false
 
-# Deneyim eklemek için aşağıdaki örneği kopyalayıp listeyi doldurun.
-# Uydurma kurum yazmayın.
-deneyim: []
-# deneyim:
-#   - kurum: "Kurumun adı"
-#     rol: "Rolünüz"
-#     donem: "2024–2025"
-#     not: "Ne yaptığınız, tek cümle. Yalnızca doğrulayabildiğiniz iş."
+deneyim:
+  - rol: Yazılım mühendisliği mezunu
+    kurum: European University of Lefke
+    donem: "2022–2026"
+    not: "Eğitim dili İngilizcedir."
+  - rol: Stajyer
+    kurum: Sağlık Bakanlığı (Burdur)
+    not: >-
+      Parola politikasını inceledim. Otuzdan fazla personele
+      güvenli kullanım ve oltalama farkındalık eğitimi verdim.
+  - rol: Stajyer
+    kurum: Klonbits Bilişim
+    not: "Klonbits Bilişim’de staj yaptım."
+  - rol: Katılımcı
+    kurum: CISA mentorluk programı
+    not: >-
+      ITGC çalışmaları yürüttüm. Beş denetim raporunu anonimleştirerek
+      hazırladım. Örnek bir bankanın AWS ortamı için bir denetim
+      çalışması yaptım. Rapor metinleri bu sitede yayımlanmaz.
 
 sertifikalar: []
-# sertifikalar:
-#   - ad: "Sertifikanın adı"
-#     veren: "Veren kuruluş"
-#     yil: "2026"
-#     not: "Yalnızca elinizde olan veya doğrulayabildiğiniz kayıt."

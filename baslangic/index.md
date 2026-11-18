@@ -18,7 +18,7 @@ Sağdaki dizin, bölümlerin listesidir. Üstteki mavi şerit de aynı yerlere g
 
 ## Bir sayfayı okumak
 
-Başlığı okuyun. Altındaki kısa satır, sayfanın ne olduğunu söyler. Parantez içindeki **taslak** veya **örnek**, metnin bitmiş bir yayın veya gerçek bir kişisel kayıt olmadığını belirtir. Hakkında sayfasındaki örnek e-posta ve şehir de bu yüzden tıklanmaz.
+Başlığı okuyun. Altındaki kısa satır, sayfanın ne işe yaradığını söyler. CISA notları, kartlar ve sorulardan çıkan özetler özgün çalışmadır; sınav sorusu veya resmi müfredat metni değildir. Bunu ilgili sayfanın üstündeki uyarı da söyler.
 
 ## Yeni yazı eklemek
 
@@ -49,4 +49,4 @@ Başkasının sınav sorusunu, soru bankasını veya müşteri ekranını buraya
 
 ## Kişisel satırlar
 
-Adınız ve tanıtımınız `_data/profil.yml` dosyasındadır. Örnek diye duran satırı gerçek bilgiyle değiştirince `ornek: false` yapın. Doğrulayamadığınız iş veya sertifika eklemeyin. Listeler bilerek boştur.
+Ad, eğitim, staj ve bağlantılar `_data/profil.yml` dosyasındadır. Doğrulanmayan unvan veya sertifika eklenmez. E-posta ve telefon bu sitede yayımlanmaz. Güncel metin [hakkında]({{ '/hakkinda/' | relative_url }}) sayfasındadır.

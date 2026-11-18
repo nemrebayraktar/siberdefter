@@ -2,7 +2,7 @@
 layout: page
 title: Bilgi sistemleri denetim süreci
 permalink: /cisa/denetim-sureci/
-description: Denetimin kapsamını daraltma, kanıt bırakma ve sonucu kanıttan ayırma üzerine özgün taslak not.
+description: Denetimin kapsamını daraltma, kanıt bırakma ve sonucu kanıttan ayırma.
 ozet: Her şeye bakılmaz. Önce soru daraltılır, sonra izi sürülen kanıt bırakılır.
 kod: SD-C-01
 sira: 1
@@ -32,28 +32,20 @@ Gözlem ile yorumu ayırmak da bu alanın işi. “On iki hesap hâlâ açık”
 
 Kuzey Hat Lojistik’in müdürü, iki haftada “sistemler güvenli mi” diye soruyor. Depo yazılımı, e-posta ve kameralar aynı anda masada. Bu nottaki ilk iş güvence vermek değil. Soruyu daraltmak: örneğin yalnızca depo yazılımında, son çeyrekte işten ayrılanların hesapları kapatılmış mı. Kamera ve e-posta o işin dışında kalır; bu, raporda açıkça yazılır.
 
-Kuruluş kurgusaldır.
+Anlatımdaki kuruluş gerçek değildir.
 
 ## Özgün tekrar
 
 Yanıtı açmadan kendi cümlenizle deneyin.
 
 <details>
-<summary>Soru 1. Sınav sorusu değildir.</summary>
+<summary>Tekrar 1</summary>
 <p>Yönetici “kritik her şeye bakın” diyor, süre on iş günü. Denetçi işe listeyi büyütmeden önce neyi yazıya dökmeli?</p>
 <p><strong>Bu nottaki yanıt.</strong> Hangi kararın verileceğini ve bu sürede hangi sistemin dışarıda kalacağını. Bakılmayan yeri saklamak yerine kapsamın dışına yazmak, iddiayı sürenin taşıyabileceği boyuta indirir.</p>
 </details>
 
 <details>
-<summary>Soru 2. Sınav sorusu değildir.</summary>
+<summary>Tekrar 2</summary>
 <p>Bir ekran görüntüsünde hesap listesi var, tarih ve sistem adı yok. Kanıtın zayıf tarafı nedir?</p>
 <p><strong>Bu nottaki yanıt.</strong> Başka biri aynı listeyi aynı günde aynı sistemde yeniden bulamaz. Görüntü tek başına “o gün öyleydi” demez. Tarih, sistem ve listenin nasıl alındığı yazılmadan gözlem taşınmaz.</p>
 </details>
-
-## Kendi eklemelerim
-
-- [ ] Bu alanın güncel adını resmi özette kontrol ettim.
-- [ ] “Kapsam dışı” diye yazmaktan çekindiğim bir örneği buraya ekledim.
-- [ ] Bilmediğim terim:
-
-<!-- Buraya kendi cümlenizi ekleyin. Başka kaynaktan soru yapıştırmayın. -->

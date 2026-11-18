@@ -1,0 +1,227 @@
+# CISA tekrar kartları. Özgün cümlelerdir; sınav sorusu veya resmi müfredat metni değildir.
+# Yeni kart: id benzersiz kalsın. alan 1–5.
+
+- id: surec-01
+  alan: 1
+  soru: "Denetim neden “her şeye bakın” diye başlamamalı?"
+  arka: "Süre sınırlıdır. Önce hangi kararın verileceği yazılır; bakılacak sistem ile bakılmayacak yer aynı cümlede durur. Bakılmayan yeri gizlemek değil, iddiayı dürüst tutmaktır."
+
+- id: surec-02
+  alan: 1
+  soru: "Ölçüt olmadan “uygunsuz” denir mi?"
+  arka: "Denmez. Ölçüt, kuruluşun kendi kuralı, sözleşmesi veya seçtiği çerçevedir. Kural görülmediyse “ölçüt bu çalışmada yok” yazılır; evrensel bir kusur ilan edilmez."
+
+- id: surec-03
+  alan: 1
+  soru: "Kanıt ile yorumu ayıran nedir?"
+  arka: "Kanıt, başkasının aynı gün aynı sistemde yeniden bulabileceği kayıttır. Yorum, o kayıttan çıkan hükümdür. “Hesap açık” gözlemdir; “süreç yok” ancak ölçüt ve tekrarlayan iz varsa yorum olur."
+
+- id: surec-04
+  alan: 1
+  soru: "Çalışma kâğıdında hangi beş satır aranır?"
+  arka: "Amaç, kapsam, yapılan iş, kanıt ve sonuç. Sonuç ikiye ayrılır: kanıtın yettiği yer ve hâlâ açık olan nokta. “İncelendi” fiili yapılan işin yerine geçmez."
+
+- id: surec-05
+  alan: 1
+  soru: "Üç kayıt bütün işin resmi midir?"
+  arka: "Hayır. Örneklem bir oran kanıtlamaz; bir tanı gösterir. Cümle “bu kayıtta” diye başlar, “kuruluşta” diye değil. Neden o kayıtların seçildiği de yazılır."
+
+- id: surec-06
+  alan: 1
+  soru: "Ekran görüntüsü tek başına kanıt sayılır mı?"
+  arka: "Tarih, sistem adı ve dosyanın nasıl alındığı yoksa zayıf kalır. Başkası aynı çıktıyı yeniden bulamıyorsa not, “o gün öyleydi” demez."
+
+- id: surec-07
+  alan: 1
+  soru: "Denetçi ile kararı veren aynı kişiyse notta ne yazılır?"
+  arka: "Ayrımın olmadığı yazılır. Küçük ekipte başka onaycı olmayabilir; bu bir kusur ilanı değil, tasarımın kendisi olabilir. Tasarım yazılmazsa okuyan kişi ayrım varmış sanır."
+
+- id: surec-08
+  alan: 1
+  soru: "Bulgu kapanınca iş biter mi?"
+  arka: "Bitmez. Sonraki dönemde aynı soru yeniden sorulur: söz verilen kapanış oldu mu, yoksa cümle olarak mı kaldı. Takip kaydı yoksa kapanış iddia edilmiş demektir."
+
+- id: surec-09
+  alan: 1
+  soru: "Denetim notu ile danışmanlık önerisi aynı metin midir?"
+  arka: "Değildir. Denetim, ölçüte göre ne görüldüğünü söyler. Danışmanlık, işi nasıl kuracağını tasarlar. Ürün adı önermek, görülenin yerine geçerse not denetim olmaktan çıkar."
+
+- id: yonet-01
+  alan: 2
+  soru: "Yönetişim ile yönetim hangi sorulardır?"
+  arka: "Yönetişim, doğru işi kimin seçtiğidir. Yönetim, seçilen işin bugün yürüyüp yürümediğidir. İkisini aynı dosyaya sıkıştırmak notu bulanıklaştırır."
+
+- id: yonet-02
+  alan: 2
+  soru: "Politika ile prosedür neden karıştırılmamalı?"
+  arka: "Politika ne istendiğini söyler. Prosedür işin adımlarını anlatır. Bir PDF’in adı politika diye geçse de, adımlar anlatıyorsa o metin prosedürdür."
+
+- id: yonet-03
+  alan: 2
+  soru: "“Ekip bakıyor” hesap verebilirlik sayılır mı?"
+  arka: "Sayılmaz. Sonuç kötüyse adı geçen bir kişi veya açık bir rol aranır. Rol yoksa, yokluğu yazılır; kalabalık bir sahipmiş gibi anlatılmaz."
+
+- id: yonet-04
+  alan: 2
+  soru: "Bitiş tarihi olmayan istisna nedir?"
+  arka: "İstisna değil, unutulmuş kuralın nazik adıdır. Bilinçli istisnada gerekçe, onay ve bitiş durur. Bitiş gelince kurala dönülüp dönülmediği ayrıca sorulur."
+
+- id: yonet-05
+  alan: 2
+  soru: "Politika dosyasının eski tarihi neyi kanıtlar?"
+  arka: "Dosyanın o tarihte var olduğunu. İşin yürüdüğünü kanıtlamaz. Son işin tarihi, çıktısı ve çıktıya bakan kişi ayrı sorulardır."
+
+- id: yonet-06
+  alan: 2
+  soru: "Kurul kaydı yokken “yönetişim çökmüş” yazılır mı?"
+  arka: "İlk cümle bu olmamalı. Önce politikadaki kurul ile kayıtlardaki onayın aynı olup olmadığı yazılır. Kurulun kalktığı ayrıca görülmeden çökme iddiası yorumda kalır."
+
+- id: yonet-07
+  alan: 2
+  soru: "Risk iştahı, her riski sıfırlamak mıdır?"
+  arka: "Hayır. Kuruluşun bilinçli olarak taşımaya razı olduğu belirsizlik düzeyidir. Her şeye aynı derece vermek bir iştah değil, sıra kurulmamış bir listedir."
+
+- id: yonet-08
+  alan: 2
+  soru: "Kontrolün tasarımı ile işleyişi nasıl ayrılır?"
+  arka: "Tasarım, kuralın ne istediğidir. İşleyiş, o işin en son ne zaman yapıldığı ve çıktının nerede durduğudur. Dosya var, son iş yoksa tasarım kâğıtta kalmış olabilir."
+
+- id: yonet-09
+  alan: 2
+  soru: "Dış hizmette ölçüt kime aittir?"
+  arka: "Hizmeti alan kuruluşun kararına. Tedarikçinin slaytı ölçütün yerine geçmez. Sözleşmede ne istendiği ve hizmetin o istekle eşleşip eşleşmediği sorulur."
+
+- id: edinim-01
+  alan: 3
+  soru: "Paketi satın almak, kabul edilmiş sayılır mı?"
+  arka: "Sayılmaz. İstenen neydi, denenen neydi, kabul eden kimdi: üçü yoksa canlıya geçiş bir kayıt bırakmamış demektir. “Tedarikçi söyledi” kabul tutanağı değildir."
+
+- id: edinim-02
+  alan: 3
+  soru: "Demoda çalışan modül neden yetmeyebilir?"
+  arka: "Demosu, kuruluşun kendi verisi ve kendi iş adımı değildir. Kabul, ihtiyacın karşılandığına dair bir kayıttır; ekranın açılması tek başına kabul değildir."
+
+- id: edinim-03
+  alan: 3
+  soru: "Deneme ile canlı aynı veriyi kullanıyorsa ne yazılır?"
+  arka: "Aynı veriyi kullandıkları ve bunun bilinçli bir tercih olup olmadığı. Ayrı sunucu şarttır diye evrensel cümle kurulmaz. Deneme işinin canlı kaydı bozup bozmadığı sorulur."
+
+- id: edinim-04
+  alan: 3
+  soru: "Acil değişiklikten sonra hangi iz aranır?"
+  arka: "Acil yolun kullanıldığı, sonradan birinin bakıp bakmadığı ve geri almanın düşünülüp düşünülmediği. Acil kayıt, normal onayın yokluğunu örten bir etiket olmamalıdır."
+
+- id: edinim-05
+  alan: 3
+  soru: "Devreye alma ile kopyalamak aynı şey midir?"
+  arka: "Değildir. Devreye almada tarih ve geri dönüş düşüncesi vardır. Yalnızca dosyayı canlıya koymak, kabul ve dönüş olmadan kopyalamaktır."
+
+- id: edinim-06
+  alan: 3
+  soru: "Veri taşınınca neye bakılır?"
+  arka: "Kaynak ile hedefin aynı işi gösterip göstermediğine. Taşıma bitti demek, kayıtların kullanılabilir olduğu anlamına gelmez. Kim baktı, hangi günde, o yazılır."
+
+- id: edinim-07
+  alan: 3
+  soru: "Bir değişiklik kaydında dört parça nedir?"
+  arka: "Talep, deneme notu, onay ve geçiş tarihi. Biri yoksa, yok mu yoksa başka dosyada mı, o sorulur. Üç kayıtta da aynı parça yoksa bu tekil unutkanlık değildir."
+
+- id: edinim-08
+  alan: 3
+  soru: "İş canlıya geçtikten sonra neden yeniden bakılır?"
+  arka: "İhtiyacın gerçekten karşılanıp karşılanmadığı, ancak kullanımda anlaşılır. Geçiş günü “açıldı” demek, işin sorunu çözdüğü anlamına gelmez."
+
+- id: edinim-09
+  alan: 3
+  soru: "Bu alanda kod kırmak neden konunun dışındadır?"
+  arka: "Aranan, kabul ve devreye alma kaydıdır. Zafiyet sömürme veya güvenlik duvarını aşma bu notun işi değildir. Kayıt yoksa, yokluk yazılır."
+
+- id: oper-01
+  alan: 4
+  soru: "Yedek yazılımı “başarılı” diyorsa geri dönüş çalışıyor mudur?"
+  arka: "Söylenemez. Başarı iletisi, kopyanın alındığını söyler. Geri açılan ve kullanılabilir bulunan dosya başka bir sonuçtur. Deneme yoksa “yok” yazılır."
+
+- id: oper-02
+  alan: 4
+  soru: "RPO ile RTO neyi ayırır?"
+  arka: "RPO, kuruluşun katlanacağı veri kaybının süresidir. RTO, hizmetin yeniden ayağa kalkması için kabul edilen süredir. İkisi yazılmadan “kritik” demek bir sıra kurmaz."
+
+- id: oper-03
+  alan: 4
+  soru: "Plandaki her sistem “öncelik 1” ise ne eksiktir?"
+  arka: "Sıra. Aynı anda her şey ilkse, duruş anında neyin önce geleceği seçilmemiş demektir. Not, planın tarihini değil, sıranın kullanılıp kullanılamadığını yazar."
+
+- id: oper-04
+  alan: 4
+  soru: "Gece çalışan iş sessizce hata verirse soru nedir?"
+  arka: "Birinin fark edip etmediği. Araç kurulu olsa da baktığı şey ve bakan kişi yazılmazsa “izleme var” cümlesi boştur."
+
+- id: oper-05
+  alan: 4
+  soru: "İki sistemin saati kayıksa neden sıra yazılmaz?"
+  arka: "“Önce denendi, sonra açıldı” cümlesi tersine dönebilir. Saat yazılmadan sıra yazılmaz. Saat bakılamadıysa “bakılamadı” denir."
+
+- id: oper-06
+  alan: 4
+  soru: "İz, sonradan silinebiliyorsa kayıt neden zayıftır?"
+  arka: "Aynı kişiler izi silebiliyorsa, görülen satır sonradan yok olmuş olabilir. Silmenin ayrıca izi var mı, o sorulur. Varsa asıl kanıt o ikinci izdir."
+
+- id: oper-07
+  alan: 4
+  soru: "Yama notunda ne aranır, ne aranmaz?"
+  arka: "Bilinen açıklığın listelenip listelenmediği ve kapatma tarihinin durup durmadığı aranır. Sömürme adımı, araç komutu veya içeri girme yolu yazılmaz."
+
+- id: oper-08
+  alan: 4
+  soru: "Kapasite neden operasyonun konusudur?"
+  arka: "Dolmadan fark edilmezse iş, arıza anında konuşulur. Sorulan, eşik ve bakan kişidir. Ürün adı uydurulmaz; bu notta bir ölçüm görülmediyse “görülmedi” denir."
+
+- id: oper-09
+  alan: 4
+  soru: "Süreklilik planı rafta duruyorsa denenmiş sayılır mı?"
+  arka: "Sayılmaz. Planın tarihi ile bir hizmetin gerçekten geri alınıp alınmadığı ayrıdır. Kâğıt üzerindeki tatbikat, açılan dosyanın yerine geçmez."
+
+- id: koru-01
+  alan: 5
+  soru: "Varlık yalnızca sunucu mudur?"
+  arka: "Hayır. Müşteri listesi, ortak posta kutusu, yedek dosya veya hizmet hesabı da varlıktır. Sahibi olmayan varlıkta “kim erişebilir” sorusu havada kalır."
+
+- id: koru-02
+  alan: 5
+  soru: "Ortak kutuda sahip yoksa ilk eksiklik nedir?"
+  arka: "Sahibin adı ve erişim gerekçesi. Ayrılan kişi hâlâ alıcıysa o da yazılır. Görülmeyen bir sızıntı “oldu” diye yazılmaz."
+
+- id: koru-03
+  alan: 5
+  soru: "Ayrıcalıklı hesap neden alta ayrılır?"
+  arka: "Az olmaları bakılmayacakları anlamına gelmez. Çoğu kişinin yapmaması gereken işi yapabilirler. Tek tek gerekçe sorulabilir; kalabalığın içinde kaybolmaları notu zayıflatır."
+
+- id: koru-04
+  alan: 5
+  soru: "Her dosya “gizli” etiketliyse sınıflandırma çalışıyor mudur?"
+  arka: "Etiket kimsenin erişimini değiştirmiyorsa hayır. Sınıflandırma kâğıtta kalmıştır. Not, etiket sayısını değil, etiketin bir kararı değiştirip değiştirmediğini yazar."
+
+- id: koru-05
+  alan: 5
+  soru: "En az yetki ne demektir?"
+  arka: "Kişi veya hesap, işi için gerekenin ötesini taşımaz. “Rahat olsun diye açık” bir gerekçe değildir. İş bitince yetkinin durup durmadığı ayrıca sorulur."
+
+- id: koru-06
+  alan: 5
+  soru: "Kimlik yaşam döngüsünde üç durak nedir?"
+  arka: "Açılış, değişiklik ve kapanış. İşe giriş ile hesap açılışı, ayrılış ile kapanış aynı döneme konur. Eşleşmeyen ad “temiz” diye kapatılmaz."
+
+- id: koru-07
+  alan: 5
+  soru: "Durağan veri ile aktarımdaki veri neden ayrı sorulur?"
+  arka: "Biri dururken, diğeri giderken korunur. Birinin şifreli olması diğerini anlatmaz. Nasıl kırılacağı bu kartın konusu değildir; korumanın hangi halde istendiği sorulur."
+
+- id: koru-08
+  alan: 5
+  soru: "Veriyi süresiz saklamak nötr bir tercih midir?"
+  arka: "Hayır, bir karardır. Saklama süresi yoksa neyin ne zaman silineceği de yoktur. Süre, kuruluşun kendi kuralından gelir; uydurma bir yıl yazılmaz."
+
+- id: koru-09
+  alan: 5
+  soru: "Farkındalık eğitimi yapıldı demek için ne gerekir?"
+  arka: "Kimin, hangi günde, hangi konuda katıldığının kaydı. Slaytın varlığı eğitim değildir. Kayıt yoksa “yapıldı” iddiası, dosyanın adına kalır."

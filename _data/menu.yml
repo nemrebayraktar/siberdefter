@@ -13,6 +13,9 @@
 - baslik: CISA notları
   url: /cisa/
   isaret: "📘"
+- baslik: Kartlar
+  url: /kartlar/
+  isaret: "🃏"
 - baslik: Sözlük
   url: /sozluk/
   isaret: "🔤"
