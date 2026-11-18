@@ -18,7 +18,36 @@
         {% endfor %}
       </ul>
       {% endif %}
-      {% if proje.calismalar %}
+      {% if proje.not %}
+      <p>{{ proje.not }}</p>
+      {% endif %}
+      {% if proje.calismalar.first.numara %}
+      <table class="calisma-tablo">
+        <caption>On beş çalışma</caption>
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Kurum</th>
+            <th scope="col">Çalışma</th>
+            <th scope="col">Çerçeve</th>
+            <th scope="col">Bulgu</th>
+            <th scope="col">Klasör</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for calisma in proje.calismalar %}
+          <tr>
+            <td data-etiket="No">{{ calisma.numara }}</td>
+            <td data-etiket="Kurum">{{ calisma.kurum }}</td>
+            <td data-etiket="Çalışma">{{ calisma.tur }}</td>
+            <td data-etiket="Çerçeve">{{ calisma.cerceve }}</td>
+            <td data-etiket="Bulgu">{{ calisma.bulgu }}</td>
+            <td data-etiket="Klasör"><a href="{{ proje.github }}/tree/main/{{ calisma.klasor }}">{{ calisma.klasor }}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% elsif proje.calismalar %}
       <p class="proje-altbaslik">Başlıca klasörler</p>
       <ul class="proje-calismalar">
         {% for calisma in proje.calismalar %}
@@ -28,9 +57,6 @@
         </li>
         {% endfor %}
       </ul>
-      {% endif %}
-      {% if proje.not %}
-      <p class="fine">{{ proje.not }}</p>
       {% endif %}
       <p class="toc-meta">
         <a href="{{ proje.github }}">{{ proje.github_yazi }}</a>

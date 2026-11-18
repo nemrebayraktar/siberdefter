@@ -870,3 +870,75 @@ a {
 .proje-calismalar a {
   overflow-wrap: anywhere;
 }
+
+.prose > ul.proje-liste {
+  max-width: none;
+}
+
+.calisma-tablo {
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.calisma-tablo caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--sans);
+  font-weight: 700;
+  color: var(--navy);
+  font-size: 0.92rem;
+  padding: 0 0 0.35rem;
+}
+
+.calisma-tablo a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .prose table.calisma-tablo {
+    display: block;
+    overflow-x: visible;
+    width: 100%;
+  }
+
+  .calisma-tablo thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .calisma-tablo tbody,
+  .calisma-tablo tr,
+  .calisma-tablo td {
+    display: block;
+    width: auto;
+  }
+
+  .calisma-tablo tr {
+    background: var(--paper);
+    border: 1px solid var(--navy);
+    margin: 0 0 0.75rem;
+    padding: 0.55rem 0.75rem 0.7rem;
+  }
+
+  .calisma-tablo td {
+    border: 0;
+    padding: 0.2rem 0;
+    overflow-wrap: anywhere;
+  }
+
+  .calisma-tablo td::before {
+    content: attr(data-etiket);
+    display: block;
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--navy);
+  }
+}

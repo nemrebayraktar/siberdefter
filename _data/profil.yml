@@ -2,15 +2,17 @@
 # Olmayan unvan veya sertifika eklenmez.
 
 ad: Emre Bayraktar
+unvan: Bilgi Sistemleri Denetçisi Adayı
 
 bio:
   ornek: false
   metin: >-
+    Bilgi Sistemleri Denetçisi Adayıyım.
     European University of Lefke’de yazılım mühendisliği okudum;
     eğitim dili İngilizceydi, yıllar 2022–2026. Antalya’da yaşıyorum.
     BT denetimi, risk ve bilgi güvenliği alanında çalışmak istiyorum.
-    CISA sınavına hazırlanıyorum; hedefim 2027 başı. Bu defter,
-    o hazırlığın ve stajlarda gördüğüm işin çalışma kaydıdır.
+    CISA sınavına hazırlanıyorum; hedefim 2027 başı. Sertifikam yoktur.
+    Bu defter, o hazırlığın ve stajlarda gördüğüm işin çalışma kaydıdır.
 
 konum:
   ornek: false

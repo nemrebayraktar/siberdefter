@@ -29,40 +29,101 @@
   github: "https://github.com/nemrebayraktar/IT-Audit-Portfolio"
   github_yazi: "github.com/nemrebayraktar/IT-Audit-Portfolio"
   not: >-
-    01–14 arasındaki kurumlar, kişiler ve veriler eğitim için kurgusaldır.
+    Kurgusal kurumlar üzerinde yapılmış eğitim amaçlı örnek çalışmalardır.
+    01–14 arasındaki kurumlar, kişiler ve veriler eğitim için üretilmiştir.
     15 numaralı anket kendi yürüttüğüm çalışmadır; raporda kişisel veri
     veya ağ adı yoktur.
   calismalar:
-    - klasor: 01-FinCore-Bank-Linux-Server-Audit
-      ad: Linux sunucu güvenlik denetimi
-    - klasor: 02-NordActive-Holding-Active-Directory-Audit
-      ad: Active Directory yetkilendirme ve erişim denetimi
-    - klasor: 03-SecurePass-Telecom-Identity-AD-Security-Audit
-      ad: Kimlik doğrulama ve Active Directory güvenlik denetimi
-    - klasor: 04-MedGlobal-Health-ISO27001-ISMS-Audit
-      ad: ISO/IEC 27001 BGYS denetimi
-    - klasor: 05-EuroGrid-Finance-DORA-NIS2-Compliance-Audit
-      ad: DORA ve NIS2 uyum denetimi
-    - klasor: 06-Vertex-Capital-Group-IT-Governance-COBIT-Audit
-      ad: BT yönetişimi ve iç kontrol denetimi
-    - klasor: 07-DataVault-Bank-Oracle-Database-Security-Audit
-      ad: Oracle veritabanı güvenlik denetimi
-    - klasor: 08-VolkanBank-Access-Management-Audit
-      ad: Erişim yönetimi ve parola güvenliği denetimi
-    - klasor: 09-VolkanBank-Transaction-Log-Monitoring-Analysis
-      ad: İşlem logu izleme ve olay analizi
-    - klasor: 10-VolkanBank-Authentication-Log-Incident-Analysis
-      ad: Kimlik doğrulama logu ve olay analizi
-    - klasor: 11-NextCorp-Information-Security-ISO27001-Audit
-      ad: Bilgi güvenliği ve BT altyapısı denetimi
-    - klasor: 12-Zentech-Network-Active-Directory-Security-Audit
-      ad: Ağ ve Active Directory güvenlik denetimi
-    - klasor: 13-Finzone-Unix-Linux-Server-Audit
-      ad: Unix ve Linux sunucu güvenlik denetimi
-    - klasor: 14-DataShiftr-Secure-SMB-Data-Migration-Case-Study
-      ad: Güvenli veri taşıma vaka analizi
-    - klasor: 15-Cyber-Awareness-Survey-WiFi-SMS-Bombing
-      ad: Siber güvenlik farkındalık anketi
+    - numara: "01"
+      kurum: FinCore Bank
+      tur: Linux Sunucu Güvenlik Denetimi
+      cerceve: "Linux hardening · CIA · KVKK"
+      bulgu: "11"
+      klasor: 01-FinCore-Bank-Linux-Server-Audit
+    - numara: "02"
+      kurum: NordActive Holding
+      tur: Active Directory Yetkilendirme ve Erişim Denetimi
+      cerceve: "AD security · Least Privilege"
+      bulgu: "9 + 2 gözlem"
+      klasor: 02-NordActive-Holding-Active-Directory-Audit
+    - numara: "03"
+      kurum: SecurePass Telecom
+      tur: Kimlik Doğrulama ve Active Directory Güvenlik Denetimi
+      cerceve: "IAM · Kerberos · Hash security"
+      bulgu: "9"
+      klasor: 03-SecurePass-Telecom-Identity-AD-Security-Audit
+    - numara: "04"
+      kurum: MedGlobal Health
+      tur: ISO 27001 BGYS Denetimi
+      cerceve: "ISO/IEC 27001:2022"
+      bulgu: "14"
+      klasor: 04-MedGlobal-Health-ISO27001-ISMS-Audit
+    - numara: "05"
+      kurum: EuroGrid Finance
+      tur: "DORA & NIS2 Regülasyon Uyum Denetimi"
+      cerceve: "DORA · NIS2"
+      bulgu: "10"
+      klasor: 05-EuroGrid-Finance-DORA-NIS2-Compliance-Audit
+    - numara: "06"
+      kurum: Vertex Capital Group
+      tur: BT Yönetişimi ve İç Kontrol Denetimi
+      cerceve: "COBIT 2019"
+      bulgu: "19"
+      klasor: 06-Vertex-Capital-Group-IT-Governance-COBIT-Audit
+    - numara: "07"
+      kurum: DataVault Bank
+      tur: Oracle Veritabanı Güvenlik Denetimi
+      cerceve: "PCI-DSS · KVKK/GDPR · Oracle"
+      bulgu: "12"
+      klasor: 07-DataVault-Bank-Oracle-Database-Security-Audit
+    - numara: "08"
+      kurum: VolkanBank
+      tur: Erişim Yönetimi ve Parola Güvenliği Denetimi
+      cerceve: "IAM · MFA · Password hashing"
+      bulgu: "6"
+      klasor: 08-VolkanBank-Access-Management-Audit
+    - numara: "09"
+      kurum: VolkanBank
+      tur: İşlem Logu İzleme ve Olay Analizi
+      cerceve: "Log monitoring · RCA"
+      bulgu: "1 ana bulgu"
+      klasor: 09-VolkanBank-Transaction-Log-Monitoring-Analysis
+    - numara: "10"
+      kurum: VolkanBank
+      tur: Kimlik Doğrulama Logu ve Olay Analizi
+      cerceve: "Log analysis · Incident response"
+      bulgu: "5 anormallik"
+      klasor: 10-VolkanBank-Authentication-Log-Incident-Analysis
+    - numara: "11"
+      kurum: NextCorp
+      tur: Bilgi Güvenliği ve BT Altyapısı Denetimi
+      cerceve: "ISO/IEC 27001:2013 Ek A"
+      bulgu: "15"
+      klasor: 11-NextCorp-Information-Security-ISO27001-Audit
+    - numara: "12"
+      kurum: Zentech Bilişim
+      tur: Ağ ve Active Directory Güvenlik Denetimi
+      cerceve: "AD · VLAN · Kurum politikaları"
+      bulgu: "6"
+      klasor: 12-Zentech-Network-Active-Directory-Security-Audit
+    - numara: "13"
+      kurum: Finzone
+      tur: Unix / Linux Sunucu Güvenlik Denetimi
+      cerceve: "ISO/IEC 27001 · COBIT 2019"
+      bulgu: "5 + 2 gözlem"
+      klasor: 13-Finzone-Unix-Linux-Server-Audit
+    - numara: "14"
+      kurum: DataShiftr
+      tur: Güvenli Veri Taşıma Vaka Analizi
+      cerceve: "SMB 3 şifreleme · Windows Server"
+      bulgu: "Vaka analizi"
+      klasor: 14-DataShiftr-Secure-SMB-Data-Migration-Case-Study
+    - numara: "15"
+      kurum: Bağımsız çalışma
+      tur: "Siber Güvenlik Farkındalık Anketi (Wi-Fi, SMS bombing)"
+      cerceve: "Anket · Gözlem"
+      bulgu: "~60-80 kişi, ~10 kafe (Wi-Fi); 40 kişi (SMS / e-posta)"
+      klasor: 15-Cyber-Awareness-Survey-WiFi-SMS-Bombing
 
 - id: cisa-toolkit
   baslik: CISA denetim araç seti
