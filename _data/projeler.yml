@@ -1,0 +1,135 @@
+# Yeni proje: listenin sonuna aynı alanlarla bir kayıt ekleyin.
+# one_cikan: true olan kayıt sayfada “Öne çıkan” diye durur. Sıra, dosyadaki sıradır.
+# Metinler depoların README ve klasör adlarından gelir.
+
+- id: it-audit-portfolio
+  one_cikan: true
+  baslik: BT denetim portföyü
+  ozet: >-
+    Uygulamalı bir BT denetim portföyüdür. On beş çalışma vardır:
+    kurgusal kurumlar üzerinde on üç denetim, bir vaka analizi ve
+    kendi yürüttüğüm bir siber güvenlik farkındalık anketi.
+    Her çalışmada yönetimin beyanı kanıtla karşılaştırılmış;
+    bulgular risk ve kök nedenle raporlanmıştır. Raporlar Türkçedir.
+  alan: >-
+    Linux ve Active Directory teknik denetiminden ISO/IEC 27001,
+    DORA/NIS2 ve COBIT 2019 uyumuna, Oracle veritabanı güvenliğine,
+    log analizine, Unix sunucusuna ve güvenli veri taşımaya uzanır.
+    Yöntem, beyan ile kanıtı yan yana koymak ve aksiyonu yönetim için yazmaktır.
+  etiketler:
+    - ISO/IEC 27001
+    - COBIT 2019
+    - DORA
+    - NIS2
+    - PCI-DSS
+    - KVKK
+    - Active Directory
+    - Linux
+    - Oracle
+  github: "https://github.com/nemrebayraktar/IT-Audit-Portfolio"
+  github_yazi: "github.com/nemrebayraktar/IT-Audit-Portfolio"
+  not: >-
+    01–14 arasındaki kurumlar, kişiler ve veriler eğitim için kurgusaldır.
+    15 numaralı anket kendi yürüttüğüm çalışmadır; raporda kişisel veri
+    veya ağ adı yoktur.
+  calismalar:
+    - klasor: 01-FinCore-Bank-Linux-Server-Audit
+      ad: Linux sunucu güvenlik denetimi
+    - klasor: 02-NordActive-Holding-Active-Directory-Audit
+      ad: Active Directory yetkilendirme ve erişim denetimi
+    - klasor: 03-SecurePass-Telecom-Identity-AD-Security-Audit
+      ad: Kimlik doğrulama ve Active Directory güvenlik denetimi
+    - klasor: 04-MedGlobal-Health-ISO27001-ISMS-Audit
+      ad: ISO/IEC 27001 BGYS denetimi
+    - klasor: 05-EuroGrid-Finance-DORA-NIS2-Compliance-Audit
+      ad: DORA ve NIS2 uyum denetimi
+    - klasor: 06-Vertex-Capital-Group-IT-Governance-COBIT-Audit
+      ad: BT yönetişimi ve iç kontrol denetimi
+    - klasor: 07-DataVault-Bank-Oracle-Database-Security-Audit
+      ad: Oracle veritabanı güvenlik denetimi
+    - klasor: 08-VolkanBank-Access-Management-Audit
+      ad: Erişim yönetimi ve parola güvenliği denetimi
+    - klasor: 09-VolkanBank-Transaction-Log-Monitoring-Analysis
+      ad: İşlem logu izleme ve olay analizi
+    - klasor: 10-VolkanBank-Authentication-Log-Incident-Analysis
+      ad: Kimlik doğrulama logu ve olay analizi
+    - klasor: 11-NextCorp-Information-Security-ISO27001-Audit
+      ad: Bilgi güvenliği ve BT altyapısı denetimi
+    - klasor: 12-Zentech-Network-Active-Directory-Security-Audit
+      ad: Ağ ve Active Directory güvenlik denetimi
+    - klasor: 13-Finzone-Unix-Linux-Server-Audit
+      ad: Unix ve Linux sunucu güvenlik denetimi
+    - klasor: 14-DataShiftr-Secure-SMB-Data-Migration-Case-Study
+      ad: Güvenli veri taşıma vaka analizi
+    - klasor: 15-Cyber-Awareness-Survey-WiFi-SMS-Bombing
+      ad: Siber güvenlik farkındalık anketi
+
+- id: cisa-toolkit
+  baslik: CISA denetim araç seti
+  ozet: >-
+    CISA alanlarına göre gruplanmış, yerelde çalışan bir BT denetim
+    araç setidir. Çalıştığı makineyi tarar ve sonucu bulgu biçiminde
+    bir HTML rapora döker. Ağırlığı operasyon ile varlıkların
+    korunmasındadır. Yönetişim ve süreç denetimi kapsam dışıdır.
+    ISACA’nın resmi aracı değildir.
+  alan: >-
+    Erişim, ağ, sistem, log, zafiyet taraması ve sıkılaştırma
+    kontrollerini 4. ve 5. alan altında toplar. 1–3. alanların
+    bu yolla otomatikleşmediğini de ayrıca söyler.
+  etiketler:
+    - Python
+    - Flask
+    - MIT
+    - CISA alan 4
+    - CISA alan 5
+  github: "https://github.com/nemrebayraktar/CISA-Toolkit"
+  github_yazi: "github.com/nemrebayraktar/CISA-Toolkit"
+
+- id: python-security-tools
+  baslik: Python güvenlik araçları
+  ozet: >-
+    Denetim çalışırken öğrenmek için yazılmış üç küçük Python aracıdır.
+    Biri web günlüğündeki adresleri AbuseIPDB’de sorgular, biri Tkinter
+    arayüzlü TCP port tarayıcısıdır, biri bağlı olunan Wi-Fi ağını
+    Flask ile kontrol eder. Yalnızca sahibi olunan veya yazılı izin
+    verilen sistemler içindir.
+  alan: >-
+    Logdaki adres, açık port ve kablosuz ağın temel kontrolüne dokunur.
+    API anahtarı koda yazılmaz; örnek log yalnızca belgelenmiş adres
+    bloklarını kullanır.
+  etiketler:
+    - Python
+    - Flask
+    - Tkinter
+    - SQLite
+    - AbuseIPDB
+    - MIT
+  github: "https://github.com/nemrebayraktar/python-security-tools"
+  github_yazi: "github.com/nemrebayraktar/python-security-tools"
+  calismalar:
+    - klasor: abuse-checker
+      ad: Access log içindeki adresleri AbuseIPDB’de sorgular
+    - klasor: port-scanner
+      ad: TCP port tarayıcısı
+    - klasor: wifi-auditor
+      ad: Bağlı Wi-Fi ağının kontrolü ve HTML rapor
+
+- id: siberdefter
+  baslik: BT Denetim Notları
+  ozet: >-
+    Bu sitenin kaynağıdır. Yazılar, CISA notları, kartlar ve listeler
+    Markdown dosyasıdır; Jekyll derler. Yayın, GitHub Actions üzerindeki
+    Pages iş akışıyla nemrebayraktar.github.io/siberdefter adresine çıkar.
+  alan: >-
+    Denetim notunu dağınık dosyada bırakmadan yayımlar. İçerik, çalışma
+    kâğıdı disiplini, CISA alanları ve tekrar kartlarıdır.
+  etiketler:
+    - Jekyll
+    - GitHub Actions
+    - GitHub Pages
+    - Markdown
+    - Ruby
+  github: "https://github.com/nemrebayraktar/siberdefter"
+  github_yazi: "github.com/nemrebayraktar/siberdefter"
+  site: "https://nemrebayraktar.github.io/siberdefter/"
+  site_yazi: "nemrebayraktar.github.io/siberdefter"

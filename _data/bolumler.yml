@@ -43,8 +43,13 @@
   url: /kaynaklar/
   isaret: "📚"
   ozet: Erişim, yedekleme, değişiklik ve kanıt notu için listeler.
+- kod: SD-B-11
+  baslik: Projeler
+  url: /projeler/
+  isaret: "📁"
+  ozet: Kamuya açık denetim depoları. Öne çıkanı on beş çalışmalık portföydür.
 - kod: SD-B-04
   baslik: Raporlar
   url: /raporlar/
   isaret: "📎"
-  ozet: Yapılmış işin özeti ve bir bulgunun yazım düzeni.
+  ozet: Yapılmış işin özeti ve bir bulgunun yazım düzeni. Portföy deposuna bağlanır.

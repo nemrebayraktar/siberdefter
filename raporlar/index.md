@@ -19,4 +19,6 @@ Sağlık Bakanlığı’nın Burdur’daki stajında parola politikasını incel
 
 Raporları olduğu gibi koymuyorum. Kurum, kişi ve sistem ayrıntısı taşısınlar diye anonimleştirildiler; yine de bu siteye dosya olarak çıkmıyorlar. Aşağıdaki sayfa, o raporlarda kullandığım yazım düzeninin kendisidir. Sayı, kişi ve kuruluş adı uydurulmaz.
 
+Kamuya açık portföy ayrı bir depodur: [IT Audit Portfolio](https://github.com/nemrebayraktar/IT-Audit-Portfolio). Depodaki on beş çalışma, kurgusal kurumlar üzerinde eğitim denetimleri, bir vaka analizi ve bir farkındalık anketidir; yukarıdaki mentorluk raporlarının dosyası değildir. Klasör dökümü [Projeler]({{ '/projeler/' | relative_url }}) sayfasında durur.
+
 ## Yazım düzeni

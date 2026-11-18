@@ -25,6 +25,9 @@
 - baslik: Kaynaklar
   url: /kaynaklar/
   isaret: "📚"
+- baslik: Projeler
+  url: /projeler/
+  isaret: "📁"
 - baslik: Raporlar
   url: /raporlar/
   isaret: "📎"

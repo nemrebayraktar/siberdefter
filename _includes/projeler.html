@@ -1,0 +1,45 @@
+{% if site.data.projeler == nil or site.data.projeler.size == 0 %}
+<p class="empty"><code>_data/projeler.yml</code> okunamadı veya boş.</p>
+{% else %}
+<ul class="toc proje-liste">
+  {% for proje in site.data.projeler %}
+  <li>
+    <article>
+      {% if proje.one_cikan %}
+      <p class="kicker">Öne çıkan</p>
+      {% endif %}
+      <h3>{{ proje.baslik }}</h3>
+      <p>{{ proje.ozet }}</p>
+      <p>{{ proje.alan }}</p>
+      {% if proje.etiketler %}
+      <ul class="etiketler" aria-label="{{ proje.baslik }} etiketleri">
+        {% for etiket in proje.etiketler %}
+        <li>{{ etiket }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if proje.calismalar %}
+      <p class="proje-altbaslik">Başlıca klasörler</p>
+      <ul class="proje-calismalar">
+        {% for calisma in proje.calismalar %}
+        <li>
+          <a href="{{ proje.github }}/tree/main/{{ calisma.klasor }}">{{ calisma.klasor }}</a>
+          <span class="not">{{ calisma.ad }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if proje.not %}
+      <p class="fine">{{ proje.not }}</p>
+      {% endif %}
+      <p class="toc-meta">
+        <a href="{{ proje.github }}">{{ proje.github_yazi }}</a>
+        {% if proje.site %}
+        · <a href="{{ proje.site }}">{{ proje.site_yazi }}</a>
+        {% endif %}
+      </p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
