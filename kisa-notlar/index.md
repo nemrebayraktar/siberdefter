@@ -2,8 +2,8 @@
 layout: page
 title: Kısa notlar
 permalink: /kisa-notlar/
-description: Erişim, yedek, değişiklik, olay kaydı ve risk için kısa denetim notları.
-ozet: Masa başında bakılacak maddeler. Uzun yazının yerine geçmez.
+description: Erişim, yedek, ITGC, görevler ayrılığı, örneklem ve bulgu yazımı için kısa denetim notları.
+ozet: Masa başında bakılacak maddeler. ITGC, görevler ayrılığı, örneklem ve bulgu yazımı da burada durur.
 kod: SD-N-00
 liste: kisa-notlar
 isaret: "🗒️"

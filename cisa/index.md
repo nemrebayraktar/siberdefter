@@ -13,7 +13,7 @@ isaret: "📘"
 
 Not tutmak ile sertifika sahibi olmak farklı şeylerdir. Sertifikam yok; sınav hedefim 2027 başı. Resmi kapsam zamanla değişir; görev listesini ve ağırlıkları buraya kopyalamıyorum. Güncel çerçeve için [ISACA’nın CISA sayfasına](https://www.isaca.org/credentialing/cisa) bakın. Bu site o sayfanın yerine geçmez.
 
-Kısa tekrar [CISA kartlarında]({{ '/kartlar/' | relative_url }}) durur. Kartlar da özgün cümledir; soru bankası değildir.
+Hazırlanırken işime yarayan hatırlatmalar [CISA için öneriler]({{ '/cisa/oneriler/' | relative_url }}) sayfasındadır. Kısa tekrar [CISA kartlarında]({{ '/kartlar/' | relative_url }}) durur. Kartlar da özgün cümledir; soru bankası değildir.
 
 ## Nasıl okunur
 
@@ -23,4 +23,4 @@ Kısa tekrar [CISA kartlarında]({{ '/kartlar/' | relative_url }}) durur. Kartla
 4. Aynı alanı kartlarda çevirin. “Tekrar” diye işaretlediğiniz karta sonra dönün.
 5. Başka siteden soru, madde veya paragraf yapıştırmayın.
 
-## Alanlar
+## Bu bölümdeki sayfalar

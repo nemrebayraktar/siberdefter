@@ -2,6 +2,44 @@
 # one_cikan: true olan kayıt sayfada “Öne çıkan” diye durur. Sıra, dosyadaki sıradır.
 # Metinler depoların README ve klasör adlarından gelir.
 
+- id: sessiz-yorunge
+  one_cikan: true
+  baslik: Sessiz Yörünge
+  ozet: >-
+    Uzaya olan ilgimden doğan, tarayıcıda çalışan bir 3B uzay
+    strateji ve keşif oyunudur. Vite, TypeScript ve Three.js ile
+    yazıldı; ayrı bir sunucu yoktur. Dokuz tür vardır. Her tür
+    kendi yıldız sistemindeki ev gezegeninde bir karakolla başlar.
+    Ganimetle karakol büyür, türler solucan delikleriyle birbirinin
+    sistemine geçer, savaş yerinde yürür.
+  alan: >-
+    Ev gezegeninde karakol kurmak, kendi sistemindeki gezegenleri
+    tutmak ve sonra diğer sistemlere geçmek temel döngüdür.
+    Yapay zekâ yardımıyla geliştirildi; kaynak kodu kamuya açıktır.
+  etiketler:
+    - Three.js
+    - TypeScript
+    - Vite
+    - WebGL
+  gorseller:
+    - src: /assets/images/sessiz-yorunge-ev-gezegeni.webp
+      alt: Sessiz Yörünge’de ev gezegeni ve üzerindeki karakol
+      yazi: Ev gezegeni ve karakol
+    - src: /assets/images/sessiz-yorunge-savas.webp
+      alt: Sessiz Yörünge’de gezegen yanında yerinde uzay savaşı
+      yazi: Yerinde uzay savaşı
+  site: "https://nemrebayraktar.github.io/sessiz-yorunge/"
+  site_yazi: "Oyna (GitHub Pages)"
+  yedek: "https://sessiz-yorunge.vercel.app"
+  yedek_yazi: "Yedek bağlantı (Vercel)"
+  github: "https://github.com/nemrebayraktar/sessiz-yorunge"
+  github_yazi: "Kaynak kod"
+  sayfa: /projeler/sessiz-yorunge/
+  sayfa_yazi: Oyun sayfası
+  not: >-
+    Türkiye’deki mobil operatörlerde GitHub Pages bağlantısı çalışır.
+    Vercel adresi yedek olarak durur.
+
 - id: it-audit-portfolio
   one_cikan: true
   baslik: BT denetim portföyü
@@ -29,101 +67,210 @@
   github: "https://github.com/nemrebayraktar/IT-Audit-Portfolio"
   github_yazi: "github.com/nemrebayraktar/IT-Audit-Portfolio"
   not: >-
-    Kurgusal kurumlar üzerinde yapılmış eğitim amaçlı örnek çalışmalardır.
-    01–14 arasındaki kurumlar, kişiler ve veriler eğitim için üretilmiştir.
-    15 numaralı anket kendi yürüttüğüm çalışmadır; raporda kişisel veri
-    veya ağ adı yoktur.
+    01–14 numaralı çalışmalar, kurgusal kurumlar üzerinde yapılmış
+    eğitim amaçlı örneklerdir. Kurum, kişi ve veriler eğitim için
+    üretilmiştir; gerçek bir müşteri raporu değildir. 15 numaralı
+    anket kendi yürüttüğüm çalışmadır; hiçbir ağa saldırı yapılmadı,
+    yalnızca konuşma, gözlem ve analiz vardır. Raporda kişisel veri
+    veya ağ adı yoktur. Kısa özetler Raporlar sayfasındadır.
   calismalar:
     - numara: "01"
       kurum: FinCore Bank
       tur: Linux Sunucu Güvenlik Denetimi
       cerceve: "Linux hardening · CIA · KVKK"
       bulgu: "11"
+      seviye: "3 Kritik, 2 Yüksek risk kategorisi"
       klasor: 01-FinCore-Bank-Linux-Server-Audit
+      pdf: FinCore-Bank-Audit-Report-TR.pdf
+      ozet: >-
+        İnternete açık bir Amazon Linux sunucusunda yönetim beyanları
+        komut çıktısıyla karşılaştırıldı. On bir bulgu; ayrıcalıklı
+        hesap, zayıf dosya izni, şifresiz servis ve kapalı izleme
+        öne çıkar. Kurgusal eğitim örneğidir.
     - numara: "02"
       kurum: NordActive Holding
       tur: Active Directory Yetkilendirme ve Erişim Denetimi
       cerceve: "AD security · Least Privilege"
       bulgu: "9 + 2 gözlem"
+      seviye: "3 Kritik · 6 Yüksek"
       klasor: 02-NordActive-Holding-Active-Directory-Audit
+      pdf: NordActive-Holding-Audit-Report-TR.pdf
+      ozet: >-
+        Kullanıcı yaşam döngüsü, ayrıcalıklı üyelikler ve parola
+        politikası kanıt paketiyle test edildi. Dokuz bulgu ve iki
+        gözlem; kapanmayan hesaplar ve geniş Domain Admin yetkisi
+        öne çıkar. Kurgusal eğitim örneğidir.
     - numara: "03"
       kurum: SecurePass Telecom
       tur: Kimlik Doğrulama ve Active Directory Güvenlik Denetimi
       cerceve: "IAM · Kerberos · Hash security"
       bulgu: "9"
+      seviye: "Raporlanmış seviye derecelendirmesi yok"
       klasor: 03-SecurePass-Telecom-Identity-AD-Security-Audit
+      pdf: SecurePass-Telecom-Audit-Report-TR.pdf
+      ozet: >-
+        Kimlik doğrulama, Kerberos ve hash politikası incelendi.
+        Dokuz bulgu; zayıf parola ayarları, ayrıcalıklı hesapta
+        MFA yokluğu ve servis hesaplarının Domain Admins üyeliği
+        öne çıkar. Kurgusal eğitim örneğidir.
     - numara: "04"
       kurum: MedGlobal Health
       tur: ISO 27001 BGYS Denetimi
       cerceve: "ISO/IEC 27001:2022"
       bulgu: "14"
+      seviye: "8 Kritik · 6 Yüksek"
       klasor: 04-MedGlobal-Health-ISO27001-ISMS-Audit
+      pdf: MedGlobal-Health-Audit-Report-TR.pdf
+      ozet: >-
+        BGYS kapsamı, iç denetim ve varlık envanteri madde madde
+        bakıldı. On dört bulgu grubu; kapsam dışı bırakılan bulut
+        sistemleri ve işletilmeyen gözden geçirme öne çıkar.
+        Kurgusal eğitim örneğidir.
     - numara: "05"
       kurum: EuroGrid Finance
       tur: "DORA & NIS2 Regülasyon Uyum Denetimi"
       cerceve: "DORA · NIS2"
       bulgu: "10"
+      seviye: "6 Kritik · 4 Yüksek"
       klasor: 05-EuroGrid-Finance-DORA-NIS2-Compliance-Audit
+      pdf: EuroGrid-Finance-Audit-Report-TR.pdf
+      ozet: >-
+        Kuruluşa raporlanan tablo, kritik işlev envanteri, olay
+        bildirimi ve tedarikçi riski kanıtla karşılaştırıldı. On
+        bulgu; bildirim ile envanter arasındaki uyumsuzluk öne
+        çıkar. Kurgusal eğitim örneğidir.
     - numara: "06"
       kurum: Vertex Capital Group
       tur: BT Yönetişimi ve İç Kontrol Denetimi
       cerceve: "COBIT 2019"
       bulgu: "19"
+      seviye: "5 Kritik · 12 Yüksek · 2 Orta"
       klasor: 06-Vertex-Capital-Group-IT-Governance-COBIT-Audit
+      pdf: Vertex-Capital-Group-Audit-Report-TR.pdf
+      ozet: >-
+        Kurul panosu, KPI/KRI, komite kararları ve COBIT öz
+        değerlendirmesi kaynak belgelerle doğrulandı. On dokuz
+        bulgu; beyan edilen yeşil durumun kanıtla örtüşmemesi öne
+        çıkar. Kurgusal eğitim örneğidir.
     - numara: "07"
       kurum: DataVault Bank
       tur: Oracle Veritabanı Güvenlik Denetimi
       cerceve: "PCI-DSS · KVKK/GDPR · Oracle"
       bulgu: "12"
+      seviye: "6 Kritik · 6 Yüksek"
       klasor: 07-DataVault-Bank-Oracle-Database-Security-Audit
+      pdf: DataVault-Bank-Audit-Report-TR.pdf
+      ozet: >-
+        DBA rolleri, şifreleme, denetim izi ve yedekleme beyanları
+        veritabanı çıktısıyla test edildi. On iki bulgu; geniş DBA
+        yetkisi ve kapalı denetim izi öne çıkar. Kurgusal eğitim
+        örneğidir.
     - numara: "08"
       kurum: VolkanBank
       tur: Erişim Yönetimi ve Parola Güvenliği Denetimi
       cerceve: "IAM · MFA · Password hashing"
       bulgu: "6"
+      seviye: "Raporlanmış seviye derecelendirmesi yok"
       klasor: 08-VolkanBank-Access-Management-Audit
+      pdf: VolkanBank-Access-Audit-Report-TR.pdf
+      ozet: >-
+        Ayrılan personel, ortak hesaplar, parola saklama ve VPN’de
+        MFA bakıldı. Altı bulgu; uzun süre açık kalan ayrıcalıklı
+        hesap ve ertelenen erişim gözden geçirmesi öne çıkar.
+        Kurgusal eğitim örneğidir.
     - numara: "09"
       kurum: VolkanBank
       tur: İşlem Logu İzleme ve Olay Analizi
       cerceve: "Log monitoring · RCA"
       bulgu: "1 ana bulgu"
+      seviye: "—"
       klasor: 09-VolkanBank-Transaction-Log-Monitoring-Analysis
+      pdf: VolkanBank-Log-Monitoring-Report-TR.pdf
+      ozet: >-
+        Ödeme işlemi günlüklerindeki kısa bir sessizlik ve ardından
+        gelen zaman aşımı incelendi. Ana bulgu, izlemenin ortalamaya
+        bakması yüzünden kısa kesintiyi kaçırmasıdır. Kurgusal
+        eğitim örneğidir.
     - numara: "10"
       kurum: VolkanBank
       tur: Kimlik Doğrulama Logu ve Olay Analizi
       cerceve: "Log analysis · Incident response"
       bulgu: "5 anormallik"
+      seviye: "—"
       klasor: 10-VolkanBank-Authentication-Log-Incident-Analysis
+      pdf: VolkanBank-Auth-Log-Analysis-Report-TR.pdf
+      ozet: >-
+        Yönetici hesabına ait giriş günlüklerindeki beş anormallik
+        yan yana kondu. Farklı adresler, değişken tarayıcı izi ve
+        kısa sürede açılan oturumlar olay analizi olarak yazıldı.
+        Kurgusal eğitim örneğidir.
     - numara: "11"
       kurum: NextCorp
       tur: Bilgi Güvenliği ve BT Altyapısı Denetimi
       cerceve: "ISO/IEC 27001:2013 Ek A"
       bulgu: "15"
+      seviye: "3 Kritik · 9 Yüksek · 3 Orta"
       klasor: 11-NextCorp-Information-Security-ISO27001-Audit
+      pdf: NextCorp-Audit-Report-TR.pdf
+      ozet: >-
+        Hibrit altyapıda kimlik, veri taşıma, yedekleme ve güncel
+        olmayan sistemler ISO/IEC 27001:2013 Ek A’ya göre bakıldı.
+        On beş bulgu; her biri için neden, etki ve öneri yazıldı.
+        Kurgusal eğitim örneğidir.
     - numara: "12"
       kurum: Zentech Bilişim
       tur: Ağ ve Active Directory Güvenlik Denetimi
       cerceve: "AD · VLAN · Kurum politikaları"
       bulgu: "6"
+      seviye: "3 Kritik · 3 Yüksek"
       klasor: 12-Zentech-Network-Active-Directory-Security-Audit
+      pdf: Zentech-Audit-Report-TR.pdf
+      ozet: >-
+        Ağ segmentasyonu, Active Directory ve parola uygulaması
+        kuruluşun kendi politikasıyla karşılaştırıldı. Altı bulgu;
+        beyan edilen kural ile görülen yapılandırma ayrıldı.
+        Kurgusal eğitim örneğidir.
     - numara: "13"
       kurum: Finzone
       tur: Unix / Linux Sunucu Güvenlik Denetimi
       cerceve: "ISO/IEC 27001 · COBIT 2019"
       bulgu: "5 + 2 gözlem"
+      seviye: "3 Yüksek · 2 Orta"
       klasor: 13-Finzone-Unix-Linux-Server-Audit
+      pdf: Finzone-Unix-Audit-Report-TR.pdf
+      ozet: >-
+        Üretim veritabanı sunucusunda kullanıcı yaşam döngüsü, SSH,
+        yama ve yetki komut çıktısıyla doğrulandı. Beş bulgu ve iki
+        gözlem; tekil ayardan çok süreç eksiği yazılmaya çalışıldı.
+        Kurgusal eğitim örneğidir.
     - numara: "14"
       kurum: DataShiftr
       tur: Güvenli Veri Taşıma Vaka Analizi
       cerceve: "SMB 3 şifreleme · Windows Server"
       bulgu: "Vaka analizi"
+      seviye: "—"
       klasor: 14-DataShiftr-Secure-SMB-Data-Migration-Case-Study
+      pdf: DataShiftr-Case-Study-TR.pdf
+      ozet: >-
+        İki sunucu arasında, VPN ve bulut depolama olmadan büyük
+        bir veritabanını taşıma sorununa bakıldı. Seçilen yol, SMB 3
+        şifrelemesi ve sıkılaştırılmış erişimle aktarımdır. Kurgusal
+        eğitim örneğidir.
     - numara: "15"
       kurum: Bağımsız çalışma
       tur: "Siber Güvenlik Farkındalık Anketi (Wi-Fi, SMS bombing)"
       cerceve: "Anket · Gözlem"
       bulgu: "~60-80 kişi, ~10 kafe (Wi-Fi); 40 kişi (SMS / e-posta)"
+      seviye: "—"
       klasor: 15-Cyber-Awareness-Survey-WiFi-SMS-Bombing
+      pdf: Awareness-Survey-Report-TR.pdf
+      ozet: >-
+        Kendi yürüttüğüm bağımsız çalışmadır; kurgusal bir şirket
+        denetimi değildir. Yaklaşık 60–80 kişiyle ve on kadar kafe
+        ile yurt odasında Wi-Fi türü ve sistem yeterliliği konuşulup
+        gözlendi. SMS bombing anlatıları dinlendi, e-posta sızıntısı
+        oranları bakıldı. Hiçbir ağa saldırı veya müdahale yapılmadı.
+        Kişisel veri ve ağ adı raporda yoktur.
 
 - id: cisa-toolkit
   baslik: CISA denetim araç seti

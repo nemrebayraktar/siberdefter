@@ -14,4 +14,4 @@ uyari: >-
 
 Beş alan, [CISA notlarıyla]({{ '/cisa/' | relative_url }}) aynı sıradadır: denetim süreci, BT yönetişimi, edinim ve devreye alma, operasyon ile iş sürekliliği, bilgi varlıklarının korunması. Kartın önü bir sorudur, arkası kendi cümlemle kısa yanıttır. Şık yoktur.
 
-İlerleme bu tarayıcıda durur; başka bir aygıta geçmez. İşareti silmek kartın metnini silmez.
+Çalışma tarzı ve beş alanı nasıl okuduğum [CISA için öneriler]({{ '/cisa/oneriler/' | relative_url }}) sayfasındadır. İlerleme bu tarayıcıda durur; başka bir aygıta geçmez. İşareti silmek kartın metnini silmez.

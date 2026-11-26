@@ -8,9 +8,21 @@
       {% if proje.one_cikan %}
       <p class="kicker">Öne çıkan</p>
       {% endif %}
-      <h3>{{ proje.baslik }}</h3>
+      <h3>{% if proje.sayfa %}<a href="{{ proje.sayfa | relative_url }}">{{ proje.baslik }}</a>{% else %}{{ proje.baslik }}{% endif %}</h3>
       <p>{{ proje.ozet }}</p>
       <p>{{ proje.alan }}</p>
+      {% if proje.gorseller %}
+      <ul class="proje-gorseller">
+        {% for gorsel in proje.gorseller %}
+        <li>
+          <figure>
+            <img src="{{ gorsel.src | relative_url }}" alt="{{ gorsel.alt }}" width="1200" height="750">
+            {% if gorsel.yazi %}<figcaption>{{ gorsel.yazi }}</figcaption>{% endif %}
+          </figure>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
       {% if proje.etiketler %}
       <ul class="etiketler" aria-label="{{ proje.baslik }} etiketleri">
         {% for etiket in proje.etiketler %}
@@ -31,7 +43,7 @@
             <th scope="col">Çalışma</th>
             <th scope="col">Çerçeve</th>
             <th scope="col">Bulgu</th>
-            <th scope="col">Klasör</th>
+            <th scope="col">Bağlantı</th>
           </tr>
         </thead>
         <tbody>
@@ -42,11 +54,17 @@
             <td data-etiket="Çalışma">{{ calisma.tur }}</td>
             <td data-etiket="Çerçeve">{{ calisma.cerceve }}</td>
             <td data-etiket="Bulgu">{{ calisma.bulgu }}</td>
-            <td data-etiket="Klasör"><a href="{{ proje.github }}/tree/main/{{ calisma.klasor }}">{{ calisma.klasor }}</a></td>
+            <td data-etiket="Bağlantı">
+              <a href="{{ proje.github }}/tree/main/{{ calisma.klasor }}">Klasör</a>
+              {% if calisma.pdf %}
+              · <a href="{{ proje.github }}/blob/main/{{ calisma.klasor }}/{{ calisma.pdf }}">PDF</a>
+              {% endif %}
+            </td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
+      <p class="toc-meta">Kısa özetler <a href="{{ '/raporlar/' | relative_url }}">Raporlar</a> sayfasındadır.</p>
       {% elsif proje.calismalar %}
       <p class="proje-altbaslik">Başlıca klasörler</p>
       <ul class="proje-calismalar">
@@ -59,9 +77,17 @@
       </ul>
       {% endif %}
       <p class="toc-meta">
-        <a href="{{ proje.github }}">{{ proje.github_yazi }}</a>
+        {% if proje.sayfa %}
+        <a href="{{ proje.sayfa | relative_url }}">{{ proje.sayfa_yazi }}</a>
+        {% endif %}
         {% if proje.site %}
-        · <a href="{{ proje.site }}">{{ proje.site_yazi }}</a>
+        {% if proje.sayfa %} · {% endif %}<a href="{{ proje.site }}">{{ proje.site_yazi }}</a>
+        {% endif %}
+        {% if proje.yedek %}
+        · <a href="{{ proje.yedek }}">{{ proje.yedek_yazi }}</a>
+        {% endif %}
+        {% if proje.github %}
+        {% if proje.sayfa or proje.site or proje.yedek %} · {% endif %}<a href="{{ proje.github }}">{{ proje.github_yazi }}</a>
         {% endif %}
       </p>
     </article>

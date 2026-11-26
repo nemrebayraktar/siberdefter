@@ -1,0 +1,32 @@
+{% assign sd_portfoy = nil %}
+{% for proje in site.data.projeler %}
+  {% if proje.id == "it-audit-portfolio" %}
+    {% assign sd_portfoy = proje %}
+  {% endif %}
+{% endfor %}
+{% if sd_portfoy == nil or sd_portfoy.calismalar == nil %}
+<p class="empty">Portföy listesi okunamadı.</p>
+{% else %}
+<ul class="toc denetim-liste">
+  {% for calisma in sd_portfoy.calismalar %}
+  <li>
+    <article>
+      <p class="toc-meta">
+        <span class="kod">{{ calisma.numara }}</span>
+        <span>{{ calisma.kurum }}</span>
+        {% if calisma.cerceve %}<span>{{ calisma.cerceve }}</span>{% endif %}
+        {% if calisma.bulgu %}<span>Bulgu: {{ calisma.bulgu }}{% if calisma.seviye and calisma.seviye != "—" %} · {{ calisma.seviye }}{% endif %}</span>{% endif %}
+      </p>
+      <h3>{{ calisma.tur }}</h3>
+      {% if calisma.ozet %}<p>{{ calisma.ozet }}</p>{% endif %}
+      <p class="toc-meta">
+        <a href="{{ sd_portfoy.github }}/tree/main/{{ calisma.klasor }}">Depo klasörü</a>
+        {% if calisma.pdf %}
+        · <a href="{{ sd_portfoy.github }}/blob/main/{{ calisma.klasor }}/{{ calisma.pdf }}">PDF rapor</a>
+        {% endif %}
+      </p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

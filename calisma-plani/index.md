@@ -10,7 +10,7 @@ isaret: "🗓️"
 
 CISA sınavı için hedefim 2027 başı. Bu sayfa o hedefe kadar kullandığım dört haftalık okuma düzenidir. Bir sertifika takvimi değildir. Resmi kapsam değişebilir; güncel çerçeve için [ISACA’nın CISA sayfasına](https://www.isaca.org/credentialing/cisa) bakın. Bu plan o sayfanın yerine geçmez.
 
-Her oturum tek bir sayfadır. Uymayan günü atlamak, uydurma bir süre yazmaktan iyidir.
+Denetçi gibi düşünmek ve risk temelli bakmak için [CISA için öneriler]({{ '/cisa/oneriler/' | relative_url }}) sayfasına da bakın. Her oturum tek bir sayfadır. Uymayan günü atlamak, uydurma bir süre yazmaktan iyidir.
 
 ## Hafta 1. Notun kendisi
 

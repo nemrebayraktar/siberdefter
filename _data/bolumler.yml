@@ -12,7 +12,7 @@
   baslik: Kısa notlar
   url: /kisa-notlar/
   isaret: "🗒️"
-  ozet: Erişim, yedek, değişiklik, olay kaydı ve risk için masa başı maddeleri.
+  ozet: Erişim, yedek, ITGC, görevler ayrılığı, örneklem ve bulgu yazımı için masa başı maddeleri.
 - kod: SD-B-06
   baslik: Sorulardan notlar
   url: /soru-notlari/
@@ -22,7 +22,7 @@
   baslik: CISA notları
   url: /cisa/
   isaret: "📘"
-  ozet: Beş çalışma alanı için özgün not. Sertifika beyanı değildir.
+  ozet: Beş alan, çalışma önerileri ve kartlara giden not. Sertifika beyanı değildir.
 - kod: SD-B-10
   baslik: CISA kartları
   url: /kartlar/
@@ -47,9 +47,9 @@
   baslik: Projeler
   url: /projeler/
   isaret: "📁"
-  ozet: Kamuya açık denetim depoları. Öne çıkanı on beş çalışmalık portföydür.
+  ozet: Sessiz Yörünge, on beş çalışmalık denetim portföyü ve öğrenirken yazılmış araçlar.
 - kod: SD-B-04
   baslik: Raporlar
   url: /raporlar/
   isaret: "📎"
-  ozet: Yapılmış işin özeti ve bir bulgunun yazım düzeni. Portföy deposuna bağlanır.
+  ozet: On beş eğitimin kısa özeti, yayımlanmayan işin kaydı ve bulgu yazım düzeni.
