@@ -7,7 +7,11 @@ ozet: Akılda kalan ayrım ve hatırlatma. Soru kökü, şık ve banka metni yok
 kod: SD-S-00
 liste: soru-notlari
 isaret: "💡"
+ust: Notlar
+ust_url: /notlar/
 ---
+Bu sayfa [Notlar]({{ '/notlar/' | relative_url }}) bölümündedir.
+
 
 Burada soru kökü yok. Bir konuyu çalıştıktan sonra akılda kalan ayrımı kendi cümlemle yazıyorum. Şık, “en doğru cevap” kalıbı ve başka kaynaktan kopya kök bu bölüme girmez.
 

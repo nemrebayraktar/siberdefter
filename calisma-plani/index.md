@@ -6,6 +6,8 @@ description: Dört haftalık okuma düzeni. CISA sınav hedefi 2027 başı.
 ozet: Haftada beş kısa oturum. Sınav tarihi değildir; notları sırayla dolaşmak içindir.
 kod: SD-P-01
 isaret: "🗓️"
+ust: CISA
+ust_url: /cisa/
 ---
 
 CISA sınavı için hedefim 2027 başı. Bu sayfa o hedefe kadar kullandığım dört haftalık okuma düzenidir. Bir sertifika takvimi değildir. Resmi kapsam değişebilir; güncel çerçeve için [ISACA’nın CISA sayfasına](https://www.isaca.org/credentialing/cisa) bakın. Bu plan o sayfanın yerine geçmez.

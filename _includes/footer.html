@@ -3,9 +3,14 @@
     <p class="footer-note">BT denetimi ve siber güvenlik için bir çalışma defteri. Eğitim notudur; denetim görüşü, hukuki danışmanlık veya ISACA’nın resmi materyali değildir.</p>
     <nav class="footer-nav" aria-label="Alt menü">
       {% for item in site.data.menu %}
-      <a href="{{ item.url | relative_url }}">{% if item.isaret %}<span class="isaret" aria-hidden="true">{{ item.isaret }}</span> {% endif %}{{ item.baslik }}</a>
+      <a href="{{ item.url | relative_url }}">{{ item.baslik }}</a>
       {% endfor %}
       <a href="{{ '/feed.xml' | relative_url }}">Yazı akışı</a>
+    </nav>
+    <nav class="footer-dizin" aria-label="Defter dizini">
+      {% for item in site.data.dizin %}
+      <a href="{{ item.url | relative_url }}">{{ item.baslik }}</a>
+      {% endfor %}
     </nav>
     <p class="footer-meta">© {{ site.time | date: "%Y" }} {{ site.author }}. Antalya. Kişisel satırlar hakkında sayfasındadır.</p>
   </div>

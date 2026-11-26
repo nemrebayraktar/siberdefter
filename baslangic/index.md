@@ -6,6 +6,8 @@ description: BT Denetim Notları'nı okumak ve yeni bir yazı eklemek için sade
 ozet: Dosya eklemek yeter. Başlık, tarih ve metin. Gerisi siteyi kendisi kurar.
 kod: SD-G-01
 isaret: "🧭"
+ust: Yazılar
+ust_url: /yazilar/
 ---
 
 Bu sayfa, siteyi ilk kez açan biri içindir. Teknik ayrıntının uzun hali deponun README dosyasındadır. Burada yalnızca günlük iş var.
@@ -14,7 +16,7 @@ Bu sayfa, siteyi ilk kez açan biri içindir. Teknik ayrıntının uzun hali dep
 
 BT Denetim Notları bir not defteridir. Yazılar, kısa maddeler, sözlük ve çalışma planı burada durur. Hepsi düz metin dosyasıdır. Ayrıca bir panel, üyelik veya ödeme yoktur.
 
-Sağdaki dizin, bölümlerin listesidir. Üstteki mavi şerit de aynı yerlere gider.
+Üst menüde sık kullanılan altı bölüm vardır. Tüm sayfalar sağdaki (dar ekranda alttaki) dizinde ve sayfa altındaki dizinde durur.
 
 ## Bir sayfayı okumak
 

@@ -1,0 +1,15 @@
+# Üst menüde durmayan, alt menü ve ilgili sayfa listelerinde kalan yollar.
+- baslik: Başlangıç
+  url: /baslangic/
+- baslik: Kısa notlar
+  url: /kisa-notlar/
+- baslik: Sorulardan notlar
+  url: /soru-notlari/
+- baslik: Sözlük
+  url: /sozluk/
+- baslik: Kaynaklar
+  url: /kaynaklar/
+- baslik: CISA kartları
+  url: /kartlar/
+- baslik: Çalışma planı
+  url: /calisma-plani/

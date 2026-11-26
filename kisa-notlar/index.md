@@ -7,7 +7,11 @@ ozet: Masa başında bakılacak maddeler. ITGC, görevler ayrılığı, örnekle
 kod: SD-N-00
 liste: kisa-notlar
 isaret: "🗒️"
+ust: Notlar
+ust_url: /notlar/
 ---
+Bu sayfa [Notlar]({{ '/notlar/' | relative_url }}) bölümündedir.
+
 
 Bunlar masa başında tutulmuş kısa maddelerdir. Yazı kadar uzun değildir, bir standardın maddesi de değildir. Müşteri adı ve kişi adı yazılmaz. Uymayan madde, kuruluşun kendi kuralı yoksa notta “bu çalışmada yok” diye bırakılır.
 

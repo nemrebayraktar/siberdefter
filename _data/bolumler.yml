@@ -8,6 +8,10 @@
   url: /yazilar/
   isaret: "📝"
   ozet: Çalışma kâğıdı, erişim, örneklem, iz kaydı ve kontrol üzerine yazılar.
+- kod: SD-B-13
+  baslik: Notlar
+  url: /notlar/
+  ozet: Kısa notlar, sorulardan çıkan özetler, sözlük ve pratik kaynaklar.
 - kod: SD-B-05
   baslik: Kısa notlar
   url: /kisa-notlar/

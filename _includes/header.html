@@ -9,10 +9,16 @@
       {% if sd_yol == "" or sd_yol == nil %}{% assign sd_yol = "/" %}{% endif %}
       {% for item in site.data.menu %}
         {% assign sd_aktif = false %}
-        {% if sd_yol == item.url or sd_yol contains item.url %}
+        {% if item.eslesen %}
+          {% for yol in item.eslesen %}
+            {% if sd_yol == yol or sd_yol contains yol %}
+              {% assign sd_aktif = true %}
+            {% endif %}
+          {% endfor %}
+        {% elsif sd_yol == item.url or sd_yol contains item.url %}
           {% assign sd_aktif = true %}
         {% endif %}
-        <a href="{{ item.url | relative_url }}"{% if sd_aktif %} aria-current="page"{% endif %}>{% if item.isaret %}<span class="isaret" aria-hidden="true">{{ item.isaret }}</span> {% endif %}{{ item.baslik }}</a>
+        <a href="{{ item.url | relative_url }}"{% if sd_aktif %} aria-current="page"{% endif %}>{{ item.baslik }}</a>
       {% endfor %}
     </nav>
   </div>

@@ -7,7 +7,11 @@ ozet: Erişim, yedekleme, değişiklik ve kanıt notu. Listeler hatırlatmadır;
 kod: SD-B-03
 liste: kaynaklar
 isaret: "📚"
+ust: Notlar
+ust_url: /notlar/
 ---
+Bu sayfa [Notlar]({{ '/notlar/' | relative_url }}) bölümündedir.
+
 
 Bu listedekiler BT Denetim Notları için yazılmış pratik hatırlatmalardır. ISO 27001, COBIT veya NIST CSF gibi çerçevelerin maddeleri kopyalanmadı. Kuruluş hangi ölçütü benimsediyse çalışma kâğıdına onu yazın; uymayan maddeyi silin ya da “bu çalışmada yok, çünkü …” diye not edin.
 

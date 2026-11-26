@@ -6,7 +6,11 @@ description: BT denetimi ve siber güvenlik için on altı kısa Türkçe tanım
 ozet: Günlük notta geçen terimler. Resmi bir standart maddesi değildir.
 kod: SD-Z-01
 isaret: "🔤"
+ust: Notlar
+ust_url: /notlar/
 ---
+Bu sayfa [Notlar]({{ '/notlar/' | relative_url }}) bölümündedir.
+
 
 Tanımlar bu defterin dilidir. Bir standardın cümlesi değildir. Kuruluş kendi sözcüğünü kullanıyorsa notta onu yazın, buradaki kısa karşılığı yalnızca hatırlatmadır.
 

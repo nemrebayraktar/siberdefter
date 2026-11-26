@@ -1,36 +1,34 @@
-- baslik: Başlangıç
-  url: /baslangic/
-  isaret: "🧭"
+# Ana menü. En fazla altı öğe; geniş ekranda tek satır kalır.
+# eslesen: bu öge, listedeki yollarda da seçili görünür.
+
 - baslik: Yazılar
   url: /yazilar/
-  isaret: "📝"
-- baslik: Kısa notlar
-  url: /kisa-notlar/
-  isaret: "🗒️"
-- baslik: Sorulardan
-  url: /soru-notlari/
-  isaret: "💡"
-- baslik: CISA notları
+  eslesen:
+    - /yazilar/
+    - /baslangic/
+- baslik: Notlar
+  url: /notlar/
+  eslesen:
+    - /notlar/
+    - /kisa-notlar/
+    - /soru-notlari/
+    - /sozluk/
+    - /kaynaklar/
+- baslik: CISA
   url: /cisa/
-  isaret: "📘"
-- baslik: Kartlar
-  url: /kartlar/
-  isaret: "🃏"
-- baslik: Sözlük
-  url: /sozluk/
-  isaret: "🔤"
-- baslik: Plan
-  url: /calisma-plani/
-  isaret: "🗓️"
-- baslik: Kaynaklar
-  url: /kaynaklar/
-  isaret: "📚"
+  eslesen:
+    - /cisa/
+    - /kartlar/
+    - /calisma-plani/
 - baslik: Projeler
   url: /projeler/
-  isaret: "📁"
+  eslesen:
+    - /projeler/
 - baslik: Raporlar
   url: /raporlar/
-  isaret: "📎"
+  eslesen:
+    - /raporlar/
 - baslik: Hakkında
   url: /hakkinda/
-  isaret: "👤"
+  eslesen:
+    - /hakkinda/
