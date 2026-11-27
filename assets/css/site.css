@@ -1166,8 +1166,10 @@ a:hover {
   min-width: 0;
 }
 
+.proje-kart h2,
 .proje-kart h3 {
   margin-top: 0;
+  font-size: 1.15rem;
 }
 
 .proje-kart .etiketler {

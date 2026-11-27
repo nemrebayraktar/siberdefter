@@ -2,11 +2,11 @@
 layout: page
 title: Projeler
 permalink: /projeler/
-description: Kamuya açık işler. Öne çıkanlar Sessiz Yörünge ve BT denetim portföyüdür.
-ozet: Oyun, denetim portföyü, güvenlik araçları ve derslerden gelen yazılım işleri. Yeni kayıt projeler veri dosyasına eklenir.
+description: Kamuya açık denetim ve güvenlik işleri. Öne çıkan, on beş çalışmalık BT denetim portföyüdür.
+ozet: On beş çalışmalık denetim portföyü ve öğrenirken yazılmış güvenlik araçları. Yazılım, oyun ve ders işleri Portföy sayfasındadır.
 kod: SD-B-11
 isaret: "📁"
 projeler: true
 ---
 
-Kamuya açık işler burada durur. Öne çıkan iki kayıt, tarayıcıda çalışan 3B oyun Sessiz Yörünge ile on beş çalışmalık BT denetim portföyüdür. Araç depoları öğrenirken yazıldı; bu site de kendi kaynağıyla listede yer alır. Denetim çalışmalarının kısa özetleri [Raporlar]({{ '/raporlar/' | relative_url }}) sayfasındadır. Ders ve deneme işleri [Yazılım ve diğer projeler](#yazilim) başlığındadır. Bir depoya kayıt eklemek için `_data/projeler.yml` dosyasına aynı alanlarla yeni bir blok koymak yeter.
+Burada denetim ve güvenlik işleri durur. Öne çıkan kayıt, on beş çalışmalık BT denetim portföyüdür. Araç depoları öğrenirken yazıldı; bu site de kendi kaynağıyla listede yer alır. Denetim çalışmalarının kısa özetleri [Raporlar]({{ '/raporlar/' | relative_url }}) sayfasındadır. Yazılım, oyun ve ders işleri — tarayıcı oyunu Sessiz Yörünge dahil — [Portföy]({{ '/portfolyo/' | relative_url }}) sayfasındadır. Bir depoya kayıt eklemek için `_data/projeler.yml` dosyasına aynı alanlarla yeni bir blok koymak yeter.

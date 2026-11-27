@@ -26,4 +26,4 @@ Türkiye’deki mobil operatörlerde [GitHub Pages üzerindeki oyun](https://nem
   <figcaption>Yerinde uzay savaşı. Ayrı bir savaş ekranı yoktur.</figcaption>
 </figure>
 
-Diğer kamuya açık işler [Projeler]({{ '/projeler/' | relative_url }}) listesindedir.
+Oyun, [Portföy]({{ '/portfolyo/' | relative_url }}) sayfasında da kısaca durur. Denetim ve güvenlik işleri [Projeler]({{ '/projeler/' | relative_url }}) listesindedir.

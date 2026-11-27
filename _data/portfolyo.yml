@@ -1,0 +1,118 @@
+# Yazılım, oyun ve ders işleri. Özetler depoların README dosyalarından doğrulandı.
+# Kartlar kısa tutulur: ne olduğu, neden yazıldığı, teknoloji, GitHub bağlantısı.
+
+- id: sessiz-yorunge
+  baslik: Sessiz Yörünge
+  ozet: >-
+    Tarayıcıda çalışan bir 3B uzay strateji ve keşif oyunudur.
+    Vite, TypeScript ve Three.js ile yazıldı; ayrı bir sunucu yoktur.
+  amac: >-
+    Uzaya olan ilgimden çıktı. Kaynak kodu kamuya açıktır; ayrıntı
+    oyun sayfasındadır.
+  etiketler:
+    - Three.js
+    - TypeScript
+    - Vite
+    - WebGL
+  sayfa: /projeler/sessiz-yorunge/
+  sayfa_yazi: Oyun sayfası
+  github: "https://github.com/nemrebayraktar/sessiz-yorunge"
+  github_yazi: "github.com/nemrebayraktar/sessiz-yorunge"
+
+- id: pazar-kibris
+  baslik: Pazar Kıbrıs
+  ozet: >-
+    Kıbrıs için bir araç alım-satım sitesidir. Vite, React, TypeScript,
+    Tailwind CSS ve Supabase kullanılır. Sitedeki fiyat tahmini ve
+    KartalBot önerileri kural tabanlıdır.
+  amac: >-
+    Yapay Zeka ve Yazılım Proje Yönetimi dersi için hazırlanmış
+    bir grup dönem projesidir.
+  etiketler:
+    - Vite
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - Supabase
+  github: "https://github.com/nemrebayraktar/pazar-kibris"
+  github_yazi: "github.com/nemrebayraktar/pazar-kibris"
+
+- id: school-library-system
+  baslik: Üniversite kütüphane sistemi
+  ozet: >-
+    Katalog arama, ödünç-iade ve isteğe bağlı bir kitap asistanı
+    olan bir kütüphane sistemidir. Python, Flask ve SQLite ile
+    çalışır; asistan yalnızca mevcut katalogdan öneri üretir.
+  amac: >-
+    Okulun kütüphanesi için alternatif bir sistem olarak,
+    öğrenmek amacıyla yazıldı.
+  etiketler:
+    - Python
+    - Flask
+    - SQLite
+    - Anthropic Claude API
+  github: "https://github.com/nemrebayraktar/school-library-system"
+  github_yazi: "github.com/nemrebayraktar/school-library-system"
+
+- id: restoai
+  baslik: RestoAI
+  ozet: >-
+    Menü, sipariş ve girişi yöneten bir restoran otomasyonu
+    API’sidir. Express, Prisma ve Socket.io kullanılır. Bu depoda
+    ayrı bir arayüz yoktur.
+  amac: >-
+    Sipariş akışı ve mutfak için anlık bildirim üzerine bir
+    denemedir.
+  etiketler:
+    - Node.js
+    - Express
+    - Prisma
+    - SQLite
+    - Socket.io
+  github: "https://github.com/nemrebayraktar/restoai"
+  github_yazi: "github.com/nemrebayraktar/restoai"
+
+- id: sunflower-spiral
+  baslik: Ayçiçeği spirali
+  ozet: >-
+    Altın açı (137,508°) ile ayçiçeği çekirdeklerinin dizilişini
+    gösteren bir animasyondur. C++ ve Gorgon kütüphanesi ile yazıldı.
+  amac: >-
+    Gelişmiş bilgisayar grafiği dersinin dönem projesidir.
+  etiketler:
+    - C++
+    - Gorgon
+    - CMake
+  github: "https://github.com/nemrebayraktar/sunflower-spiral"
+  github_yazi: "github.com/nemrebayraktar/sunflower-spiral"
+
+- id: night-vision
+  baslik: Gece görüşü benzetimi
+  ozet: >-
+    Bir fotoğrafa gri tonlama, eşitleme ve yeşil eşleme uygulayarak
+    gece görüşü görünümünü yaklaştıran bir görüntü işleme hattıdır.
+    C++ ve Gorgon ile yazıldı; gerçek bir gece görüş cihazı değildir.
+  amac: >-
+    Sayısal görüntü işleme dersinin dönem projesidir.
+  etiketler:
+    - C++
+    - Gorgon
+    - CMake
+  github: "https://github.com/nemrebayraktar/night-vision"
+  github_yazi: "github.com/nemrebayraktar/night-vision"
+
+- id: engineering-ethics-case-study
+  baslik: Mühendislik etiği vaka çalışması
+  ozet: >-
+    NSPE etik incelemesinden iki vakanın analizidir: yol şeridi
+    genişliği ve kamu güvenliği ile güvenlik yazılımının yurt
+    dışına gönderilmesi.
+  amac: >-
+    Mühendislik etiği dersinin grup dönem projesidir. Rapordaki
+    katkım, ilk vakanın kod ve standart araştırmasıdır.
+  etiketler:
+    - ENGG434
+    - NSPE
+    - Etik
+  github: "https://github.com/nemrebayraktar/engineering-ethics-case-study"
+  github_yazi: "github.com/nemrebayraktar/engineering-ethics-case-study"

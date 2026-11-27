@@ -51,7 +51,12 @@
   baslik: Projeler
   url: /projeler/
   isaret: "📁"
-  ozet: Sessiz Yörünge, on beş çalışmalık denetim portföyü ve öğrenirken yazılmış araçlar.
+  ozet: On beş çalışmalık denetim portföyü ve öğrenirken yazılmış güvenlik araçları.
+- kod: SD-B-14
+  baslik: Portföy
+  url: /portfolyo/
+  isaret: "🗂️"
+  ozet: Yazılım, oyun ve mühendislik ders işleri. Kartlar GitHub depolarına gider.
 - kod: SD-B-04
   baslik: Raporlar
   url: /raporlar/

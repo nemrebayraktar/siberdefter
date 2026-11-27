@@ -1,0 +1,30 @@
+{% if site.data.portfolyo == nil or site.data.portfolyo.size == 0 %}
+<p class="empty"><code>_data/portfolyo.yml</code> okunamadı veya boş.</p>
+{% else %}
+<ul class="proje-kartlar">
+  {% for proje in site.data.portfolyo %}
+  <li>
+    <article class="proje-kart">
+      <h2>{{ proje.baslik }}</h2>
+      <p>{{ proje.ozet }}</p>
+      {% if proje.amac %}<p>{{ proje.amac }}</p>{% endif %}
+      {% if proje.etiketler %}
+      <ul class="etiketler" aria-label="{{ proje.baslik }} etiketleri">
+        {% for etiket in proje.etiketler %}
+        <li>{{ etiket }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <p class="toc-meta">
+        {% if proje.sayfa %}
+        <a href="{{ proje.sayfa | relative_url }}">{{ proje.sayfa_yazi }}</a>
+        {% endif %}
+        {% if proje.github %}
+        {% if proje.sayfa %} · {% endif %}<a href="{{ proje.github }}">{{ proje.github_yazi }}</a>
+        {% endif %}
+      </p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
