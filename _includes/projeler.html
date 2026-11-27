@@ -3,6 +3,7 @@
 {% else %}
 <ul class="toc proje-liste">
   {% for proje in site.data.projeler %}
+  {% if proje.grup == "yazilim" %}{% continue %}{% endif %}
   <li>
     <article>
       {% if proje.one_cikan %}
@@ -94,4 +95,32 @@
   </li>
   {% endfor %}
 </ul>
+
+{% assign sd_yazilim = site.data.projeler | where: "grup", "yazilim" %}
+{% if sd_yazilim.size > 0 %}
+<h2 id="yazilim">Yazılım ve diğer projeler</h2>
+<p>Ders ve deneme işleri burada durur. Kısa özetler, depoların README dosyalarından alınmıştır.</p>
+<ul class="proje-kartlar">
+  {% for proje in sd_yazilim %}
+  <li>
+    <article class="proje-kart">
+      <h3>{{ proje.baslik }}</h3>
+      <p>{{ proje.ozet }}</p>
+      {% if proje.alan %}<p>{{ proje.alan }}</p>{% endif %}
+      {% if proje.not %}<p class="fine">{{ proje.not }}</p>{% endif %}
+      {% if proje.etiketler %}
+      <ul class="etiketler" aria-label="{{ proje.baslik }} etiketleri">
+        {% for etiket in proje.etiketler %}
+        <li>{{ etiket }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <p class="toc-meta">
+        <a href="{{ proje.github }}">{{ proje.github_yazi }}</a>
+      </p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
 {% endif %}

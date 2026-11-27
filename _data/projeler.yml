@@ -341,3 +341,134 @@
   github_yazi: "github.com/nemrebayraktar/siberdefter"
   site: "https://nemrebayraktar.github.io/siberdefter/"
   site_yazi: "nemrebayraktar.github.io/siberdefter"
+
+# Yazılım ve diğer projeler (ders ve deneme işleri).
+# Özetler depoların README dosyalarından doğrulanmıştır.
+
+- id: pazar-kibris
+  grup: yazilim
+  baslik: Pazar Kıbrıs
+  ozet: >-
+    Lefke Avrupa Üniversitesi’nde, Yapay Zeka ve Yazılım Proje
+    Yönetimi dersi için grup olarak hazırladığımız, Kıbrıs
+    için bir araç alım-satım sitesidir. Vite, React, TypeScript,
+    Tailwind CSS ve Supabase kullanılır.
+  alan: >-
+    Sitedeki fiyat tahmini ve KartalBot Alpha önerileri kural
+    tabanlıdır; klasik bir makine öğrenmesi modeli değildir.
+  etiketler:
+    - Vite
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - Supabase
+  github: "https://github.com/nemrebayraktar/pazar-kibris"
+  github_yazi: "github.com/nemrebayraktar/pazar-kibris"
+  not: >-
+    ml-prototype klasöründe, 4009 satırlık ikinci el araç verisiyle
+    eğitilmiş ayrı bir RandomForest denemesi durur. Bu prototip
+    siteye bağlı değildir.
+
+- id: school-library-system
+  grup: yazilim
+  baslik: Üniversite kütüphane sistemi
+  ozet: >-
+    Okulun kütüphanesi için yazılmış alternatif bir sistemdir.
+    Öğrenciler kataloğu arayıp raf konumunu görür; yönetici
+    tarafında ödünç-iade, öğrenci kaydı ve yorum yönetimi vardır.
+  alan: >-
+    Python, Flask, Flask-SQLAlchemy ve SQLite ile çalışır. İsteğe
+    bağlı AI asistan, Anthropic Claude API’sine bağlanır ve yalnızca
+    o andaki katalogdaki kitaplardan öneri üretir. Anahtar yoksa
+    uygulamanın geri kalanı yine açılır.
+  etiketler:
+    - Python
+    - Flask
+    - SQLite
+    - Anthropic Claude API
+  github: "https://github.com/nemrebayraktar/school-library-system"
+  github_yazi: "github.com/nemrebayraktar/school-library-system"
+  not: >-
+    Örnek veriler kurgu. Arayüz İngilizcedir. AI sohbeti anahtar
+    olmadan çalışmaz.
+
+- id: restoai
+  grup: yazilim
+  baslik: RestoAI
+  ozet: >-
+    Menü, sipariş, kullanıcı girişi ve yönetici işlemlerini yöneten
+    bir restoran otomasyonu denemesidir. Bu depoda yalnızca API
+    tarafı vardır; ayrı bir arayüz paketi yoktur.
+  alan: >-
+    Node.js, Express, Prisma ve JWT kullanılır. Mutfak ekranı için
+    Socket.io ile anlık bildirim düşünülmüştür. İsteğe bağlı iki
+    dış AI servisi tanımlıdır; servis yoksa öneri menüden birkaç
+    kayıt döndürür. Varsayılan veritabanı SQLite’dir.
+  etiketler:
+    - Node.js
+    - Express
+    - Prisma
+    - SQLite
+    - Socket.io
+  github: "https://github.com/nemrebayraktar/restoai"
+  github_yazi: "github.com/nemrebayraktar/restoai"
+
+- id: sunflower-spiral
+  grup: yazilim
+  baslik: Ayçiçeği spirali
+  ozet: >-
+    COMP465 gelişmiş bilgisayar grafiği dersi için yazılmış bir
+    dönem projesidir. Ayçiçeği çekirdeklerinin dizilişi, altın
+    açı (137,508°) ile bir animasyon olarak gösterilir.
+  alan: >-
+    C++ ve Gorgon kütüphanesi kullanılır. 600×600 tuvalde 1500
+    çekirdek, Arşimet spirali ve dört renk bölgesi vardır.
+    Gorgon macOS’ta desteklenmediği için çalışma Kali Linux
+    sanal makinesinde derlenmiştir.
+  etiketler:
+    - C++
+    - Gorgon
+    - CMake
+  github: "https://github.com/nemrebayraktar/sunflower-spiral"
+  github_yazi: "github.com/nemrebayraktar/sunflower-spiral"
+
+- id: night-vision
+  grup: yazilim
+  baslik: Gece görüşü benzetimi
+  ozet: >-
+    Sayısal görüntü işleme dersi için yazılmış bir dönem projesidir.
+    Gerçek gece görüş cihazı gibi kızılötesi veya X-ışını kullanmaz;
+    elindeki bir fotoğrafa ardışık işlemler uygulayarak o görünüme
+    yaklaşır.
+  alan: >-
+    C++ ve Gorgon ile yazılmıştır. Hat sırası sınırlama, gri
+    tonlama, histogram eşitleme, Gauss bulanıklaştırma, yeşil
+    eşleme ve vinyettir. Çıktı ekrana çizilir ve output.png
+    olarak kaydedilir.
+  etiketler:
+    - C++
+    - Gorgon
+    - CMake
+  github: "https://github.com/nemrebayraktar/night-vision"
+  github_yazi: "github.com/nemrebayraktar/night-vision"
+
+- id: engineering-ethics-case-study
+  grup: yazilim
+  baslik: Mühendislik etiği vaka çalışması
+  ozet: >-
+    Lefke Avrupa Üniversitesi ENGG434 dersinin grup dönem
+    projesidir. NSPE etik incelemesinden iki vaka seçilmiştir:
+    yol şeridi genişliği ve kamu güvenliği ile güvenlik yazılımının
+    yurt dışına gönderilmesi.
+  alan: >-
+    Rapordaki katkım, Vaka 2 için NSPE maddeleri ile AASHTO,
+    MUTCD ve Türkiye’deki karşılıklarının (KGM, TSE, TMMOB)
+    derlenmesidir. Vaka araştırması, Vaka 7 analizi ve sunum
+    grup çalışmasıdır. Bu kopyada öğrenci numaraları ve grup
+    arkadaşlarının adları çıkarılmıştır.
+  etiketler:
+    - ENGG434
+    - NSPE
+    - Etik
+  github: "https://github.com/nemrebayraktar/engineering-ethics-case-study"
+  github_yazi: "github.com/nemrebayraktar/engineering-ethics-case-study"

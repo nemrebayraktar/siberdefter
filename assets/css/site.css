@@ -1137,3 +1137,50 @@ a:hover {
     flex-wrap: wrap;
   }
 }
+
+
+.prose > ul.proje-kartlar {
+  list-style: none;
+  margin: 1.1rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: none;
+}
+
+.prose > ul.proje-kartlar > li {
+  display: flex;
+  min-width: 0;
+}
+
+.proje-kart {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.15rem 1.2rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.proje-kart h3 {
+  margin-top: 0;
+}
+
+.proje-kart .etiketler {
+  margin-top: auto;
+  margin-bottom: 0.55rem;
+}
+
+.proje-kart .toc-meta {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 800px) {
+  .prose > ul.proje-kartlar {
+    grid-template-columns: 1fr;
+  }
+}
