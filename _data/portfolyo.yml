@@ -19,6 +19,26 @@
   github: "https://github.com/nemrebayraktar/sessiz-yorunge"
   github_yazi: "github.com/nemrebayraktar/sessiz-yorunge"
 
+- id: pdr-haftalik-takip
+  baslik: PDR haftalık takip
+  ozet: >-
+    Bir PDR uzmanının haftalık öğrenci takiplerini WhatsApp’tan
+    çıkarmak için yazılmış, sunucusuz tek HTML dosyalık bir araçtır.
+    Gemini API ile analiz ve fotoğraftan okuma vardır; veriler
+    tarayıcının kendisinde durur.
+  amac: >-
+    Haftalık takibi düzenli tutacak, kurulumu ağır olmayan
+    hafif bir araç istendiği için hazırlandı.
+  etiketler:
+    - HTML
+    - JavaScript
+    - Chart.js
+    - Gemini API
+  canli: "https://nemrebayraktar.github.io/pdr-haftalik-takip/"
+  canli_yazi: Canlı sayfa
+  github: "https://github.com/nemrebayraktar/pdr-haftalik-takip"
+  github_yazi: "github.com/nemrebayraktar/pdr-haftalik-takip"
+
 - id: pazar-kibris
   baslik: Pazar Kıbrıs
   ozet: >-
